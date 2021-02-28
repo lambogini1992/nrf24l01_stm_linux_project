@@ -278,6 +278,7 @@ NRF24_IRQ NRF24_GetIRQ_Status(void)
     return NRF24_IRQ_INVALID;
 }
 
+
 /*
     Description:
         + This function is used to toggle DEBUG PIN 3 time with 500ms
@@ -297,6 +298,7 @@ void NRF24_Toggle_Debug_Pin(void)
     NRF24_HAL_Control_DEBUG(NRF24_HAL_DEBUG_STATUS_LOW);
     HAL_Delay(500000);
 }
+
 /*
     Description:
         + This function is used to set address for pipe
@@ -1051,6 +1053,40 @@ NRF24_SERVICE_STATUS NRF24_Control_Shockbrust(NRF24_ENABLE_PTX_PRX mode)
             break;
 
         case NRF24_ENABLE_PTX_PRX_OFF:
+            {
+                if(NRF24_HAL_STATUS_OK != NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS_HIGH))
+                {
+                    return NRF24_SERVICE_STATUS_FAIL;
+                }
+            }
+            break;
+    }
+
+    return NRF24_SERVICE_STATUS_OK;
+}
+
+/*
+    Description:
+        + This function is used to enable nrf24 device is in stand-by mode or active mode with CE PIN
+    Input Parameter:
+        + mode : the mode control
+    Output Parameter:
+        + Return status to know the process is success or failed
+*/
+NRF24_SERVICE_STATUS NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE mode)
+{
+    switch(mode)
+    {
+        case NRF24_CONTROL_MODE_ACTIVE_TX_RX:
+            {
+                if(NRF24_HAL_STATUS_OK != NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS_HIGH))
+                {
+                    return NRF24_SERVICE_STATUS_FAIL;
+                }
+            }
+            break;
+
+        case NRF24_CONTROL_MODE_STANDBY:
             {
                 if(NRF24_HAL_STATUS_OK != NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS_HIGH))
                 {

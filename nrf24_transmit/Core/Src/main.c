@@ -37,11 +37,7 @@ int main(void)
   {
     return -1;
   }
-  //Reset all Register
-  if(NRF24_SERVICE_STATUS_OK != NRF24_SoftReset_Init())
-  {
-    return -1;
-  }
+
   //Init nrf24 service handler;
   memset(&nrf24_ser_handler, 0, sizeof(NRF24_SERVICE_HANDLER));
   nrf24_ser_handler.mode             = NRF24_TRANSCIVER_MODE_RX;
@@ -56,6 +52,17 @@ int main(void)
   nrf24_ser_handler.pipe[0].addr     = 0x03;
   nrf24_ser_handler.pipe[0].pipe_idx = 1;
   /* USER CODE END 1 */
+  //Going to Stan-By Mode to configurate device
+  if(NRF24_SERVICE_STATUS_OK != NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE_STANDBY))
+  {
+	  return -1;
+  }
+  //Reset all Register
+  if(NRF24_SERVICE_STATUS_OK != NRF24_SoftReset_Init())
+  {
+    return -1;
+  }
+
   //Set address witdh is 5 byte
   if(NRF24_SERVICE_STATUS_OK != NRF24_Set_Addr_Width(NRF24_SET_ADDR_WIDTH_5BYTE))
   {
@@ -146,12 +153,23 @@ int main(void)
 	  return -1;
   }
 
+  if(NRF24_SERVICE_STATUS_OK != NRF24_Set_PWRUp(NRF24_PWR_CTRL_UP))
+  {
+	  return -1;
+  }
+
+  //Going to Active Mode to Enable PTX Mode
+  if(NRF24_SERVICE_STATUS_OK != NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE_STANDBY))
+  {
+	  return -1;
+  }
+
   while (1)
   {
     /* USER CODE END WHILE */
     //Send ACK_PLD data
     if(NRF24_SERVICE_STATUS_OK != NRF24_Write_TX_PLD_ACK(nrf24_ser_handler.pipe[0].pipe_idx,\
-                                                              &data_count_ptx, sizeof(data_count_ptx)))
+                                                              &data_count_ptx, (uint8_t)sizeof(data_count_ptx)))
     {
       return -1;
     }

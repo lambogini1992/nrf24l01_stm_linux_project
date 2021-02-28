@@ -1044,6 +1044,40 @@ NRF24_SERVICE_STATUS NRF24_Control_Shockbrust(NRF24_ENABLE_PTX_PRX mode)
     return NRF24_SERVICE_STATUS_OK;
 }
 
+/*
+    Description:
+        + This function is used to enable nrf24 device is in stand-by mode or active mode with CE PIN
+    Input Parameter:
+        + mode : the mode control
+    Output Parameter:
+        + Return status to know the process is success or failed
+*/
+NRF24_SERVICE_STATUS NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE mode)
+{
+    switch(mode)
+    {
+        case NRF24_CONTROL_MODE_ACTIVE_TX_RX:
+            {
+                if(NRF24_HAL_STATUS_OK != NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS_HIGH))
+                {
+                    return NRF24_SERVICE_STATUS_FAIL;
+                }
+            }
+            break;
+
+        case NRF24_CONTROL_MODE_STANDBY:
+            {
+                if(NRF24_HAL_STATUS_OK != NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS_HIGH))
+                {
+                    return NRF24_SERVICE_STATUS_FAIL;
+                }
+            }
+            break;
+    }
+
+    return NRF24_SERVICE_STATUS_OK;
+}
+
 /*---------------------------------------------------------------------------
                             PROTOTYPE FUNCTION
 ---------------------------------------------------------------------------*/
