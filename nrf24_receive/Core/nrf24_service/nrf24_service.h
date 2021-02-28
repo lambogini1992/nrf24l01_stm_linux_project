@@ -1,0 +1,261 @@
+/*
+ * nrf24_service.h
+ *
+ *  Created on: Feb 12, 2021
+ *      Author: Admin
+ */
+
+#ifndef NRF24_SERVICE_NRF24_SERVICE_H_
+#define NRF24_SERVICE_NRF24_SERVICE_H_
+
+#include <stdbool.h>
+#include <stdint.h>
+
+/*------------------------------------------------------------------
+                             ENUM INPUT
+  ------------------------------------------------------------------*/
+typedef enum _nrf24_retransmit_delay_
+{
+  NRF24_RETRANSMIT_DELAY_250US = 0,
+  NRF24_RETRANSMIT_DELAY_500US,
+  NRF24_RETRANSMIT_DELAY_750US,
+  NRF24_RETRANSMIT_DELAY_1000US,
+  NRF24_RETRANSMIT_DELAY_1250US,
+  NRF24_RETRANSMIT_DELAY_1500US,
+  NRF24_RETRANSMIT_DELAY_1750US,
+  NRF24_RETRANSMIT_DELAY_2000US,
+  NRF24_RETRANSMIT_DELAY_2250US,
+  NRF24_RETRANSMIT_DELAY_2500US,
+  NRF24_RETRANSMIT_DELAY_2750US,
+  NRF24_RETRANSMIT_DELAY_3000US,
+  NRF24_RETRANSMIT_DELAY_3250US,
+  NRF24_RETRANSMIT_DELAY_3500US,
+  NRF24_RETRANSMIT_DELAY_3750US,
+  NRF24_RETRANSMIT_DELAY_4000US,
+}NRF24_RETRANSMIT_DELAY;
+
+typedef enum _nrf24_data_rate_
+{
+  NRF24_DATA_RATE_250KBPS = 0x20,
+  NRF24_DATA_RATE_1MBPS   = 0x00,
+  NRF24_DATA_RATE_2MBPS   = 0x80
+}NRF24_DATA_RATE;
+
+typedef enum _nrf24_output_pwr_
+{
+  NRF24_OUTPUT_PWR_18DBM = 0x00,
+  NRF24_OUTPUT_PWR_12DBM = 0x02,
+  NRF24_OUTPUT_PWR_6DBM  = 0x04,
+  NRF24_OUTPUT_PWR_0DBM  = 0x06,
+}NRF24_OUTPUT_PWR;
+
+typedef enum _nrf24_crc_encode_
+{ 
+  NRF24_CRC_ENCODE_OFF    = 0x00,
+  NRF24_CRC_ENCODE_1BYTE  = 0x08,
+  NRF24_CRC_ENCODE_2BYTE  = 0x0C,
+}NRF24_CRC_ENCODE;
+
+typedef enum _nrf24_pwr_ctrl_
+{
+  NRF24_PWR_CTRL_DOWN = 0x00,
+  NRF24_PWR_CTRL_UP   = 0x02,
+}NRF24_PWR_CTRL;
+
+typedef enum _nrf24_dynamic_pld_
+{
+  NRF24_DYNAMIC_PLD_OFF = 0x00,
+  NRF24_DYNAMIC_PLD_ON  = 0x01
+}NRF24_DYNAMIC_PLD;
+
+typedef enum _nrf24_transciver_mode_
+{
+  NRF24_TRANSCIVER_MODE_TX = 0x00,
+  NRF24_TRANSCIVER_MODE_RX,
+}NRF24_TRANSCIVER_MODE;
+
+typedef enum _nrf24_pipe_address_
+{
+  NRF24_PIPE_ADDRESS_RX0 = 0,
+  NRF24_PIPE_ADDRESS_RX1,
+  NRF24_PIPE_ADDRESS_RX2,
+  NRF24_PIPE_ADDRESS_RX3,
+  NRF24_PIPE_ADDRESS_RX4,
+  NRF24_PIPE_ADDRESS_RX5,
+  NRF24_PIPE_ADDRESS_TX,
+}NRF24_PIPE_ADDRESS;
+
+typedef enum _nrf24_set_ack_
+{
+  NRF24_ACK_STATUS_OFF = 0,
+  NRF24_ACK_STATUS_ON  = 2,
+}NRF24_ACK_STATUS;
+
+typedef enum _nrf24_rxfifo_status_
+{
+  NRF24_RXFIFO_STATUS_DATA = 0,
+  NRF24_RXFIFO_STATUS_EMPTY,
+  NRF24_RXFIFO_STATUS_FULL,
+  NRF24_RXFIFO_STATUS_ERROR
+}NRF24_RXFIFO_STATUS;
+
+typedef enum _nrf24_txfifo_status_
+{
+  NRF24_TXFIFO_STATUS_DATA = 0,
+  NRF24_TXFIFO_STATUS_EMPTY,
+  NRF24_TXFIFO_STATUS_FULL,
+  NRF24_TXFIFO_STATUS_ERROR
+}NRF24_TXFIFO_STATUS;
+
+typedef enum _nrf24_rxfifo_data_pipe_
+{
+  NRF24_RXFIFO_DATA_PIPE0 = 0,
+  NRF24_RXFIFO_DATA_PIPE1,
+  NRF24_RXFIFO_DATA_PIPE2,
+  NRF24_RXFIFO_DATA_PIPE3,
+  NRF24_RXFIFO_DATA_PIPE4,
+  NRF24_RXFIFO_DATA_PIPE5,
+  NRF24_RXFIFO_DATA_PIPE_EMPTY = 0xFF
+}NRF24_RXFIFO_DATA_PIPE;
+
+typedef enum _nrf24_enable_rx_pipe_
+{
+  NRF24_ENABLE_RX_PIPE0 = 1,
+  NRF24_ENABLE_RX_PIPE1 = 2,
+  NRF24_ENABLE_RX_PIPE2 = 4,
+  NRF24_ENABLE_RX_PIPE3 = 8,
+  NRF24_ENABLE_RX_PIPE4 = 16,
+  NRF24_ENABLE_RX_PIPE5 = 32,
+  NRF24_ENABLE_RX_ALL_PIPE = 63
+}NRF24_ENABLE_RX_PIPE;
+
+typedef enum _nrf24_irq_
+{
+  NRF24_IRQ_RX_DATA_READY   = 0x20,
+  NRF24_IRQ_TX_DATA_SENT    = 0x10,
+  NRF24_IRQ_MAX_RETRANSMIT  = 0x08,
+  NRF24_IRQ_INVALID        = 0xFF
+}NRF24_IRQ;
+
+typedef enum _nrf24_config_irq_mask_
+{
+  NRF24_CONFIG_IRQ_MASK_RX_DR   = 64,
+  NRF24_CONFIG_IRQ_MASK_TX_DS   = 32,
+  NRF24_CONFIG_IRQ_MASK_MAX_RT  = 16,
+  NRF24_CONFIG_IRQ_MASK_ALL     = 112
+}NRF24_CONFIG_IRQ_MASK;
+
+typedef enum _nrf24_set_addr_width_
+{
+  NRF24_SET_ADDR_WIDTH_INVALID = 0,
+  NRF24_SET_ADDR_WIDTH_3BYTE,
+  NRF24_SET_ADDR_WIDTH_4BYTE,
+  NRF24_SET_ADDR_WIDTH_5BYTE
+}NRF24_SET_ADDR_WIDTH;
+
+typedef enum _nrf24_receive_pwr_
+{
+  NRF24_RECEIVE_PWR_NONE = 0,
+  NRF24_RECEIVE_PWR_DETECTED,
+}NRF24_RECEIVE_PWR;
+
+typedef enum _nrf24_dynamic_pld_mode_
+{
+  NRF24_DYNAMIC_PLD_MODE_OFF = 0,
+  NRF24_DYNAMIC_PLD_MODE_ON  = 4,
+}NRF24_DYNAMIC_PLD_MODE;
+
+typedef enum _nrf24_dynamic_ACK_mode_
+{
+  NRF24_DYNAMIC_ACK_MODE_OFF = 0,
+  NRF24_DYNAMIC_ACK_MODE_ON  = 1,
+}NRF24_DYNAMIC_ACK_MODE;
+
+typedef enum _nrf24_enable_ptx_prx_
+{
+  NRF24_ENABLE_PTX_PRX_OFF = 0,
+  NRF24_ENABLE_PTX_PRX_ON
+}NRF24_ENABLE_PTX_PRX;
+
+typedef enum _nrf24_service_status_
+{
+  NRF24_SERVICE_STATUS_OK = 0,
+  NRF24_SERVICE_STATUS_FAIL,
+  NRF24_SERVICE_STATUS_MAX
+}NRF24_SERVICE_STATUS;
+
+typedef struct _nrf24_rx_data_pld_
+{
+  uint8_t pipe_idx;
+  uint8_t data_pld[32];
+  uint8_t pld_size;
+}NRF24_RX_PLD;
+
+typedef struct _nrf24_tx_data_pld_
+{
+  bool    have_ack_pkt;
+  uint8_t pipe_idx;
+  uint8_t data_pld[32];
+  uint8_t pld_size;
+}NRF24_TX_DATA_PLD;
+
+typedef struct _nrf24_pipe_profile_
+{
+  bool    is_en;
+  uint8_t addr;
+  uint8_t pipe_idx;
+}NRF24_PIPE_PROFILE;
+
+typedef struct _nrf24_service_handler_
+{
+  bool have_rx_pkt;
+  bool tx_pkt_full;
+  bool transmit_done;
+  bool rx_data_ready;
+  bool transmit_err;
+  NRF24_TRANSCIVER_MODE mode;
+  uint8_t nrf24_dev_addr[5];
+  NRF24_PIPE_PROFILE pipe[5];
+}NRF24_SERVICE_HANDLER;
+
+/*This will be implement in next version*/
+
+NRF24_SERVICE_STATUS NRF24_Service_Read_RX_PKT(NRF24_RX_PLD *rx_pkt);
+NRF24_SERVICE_STATUS NRF24_Service_Write_TX_PKT(NRF24_TX_DATA_PLD tx_pkt);
+NRF24_SERVICE_STATUS NRF24_Service_Handle_Loop(void);
+NRF24_SERVICE_STATUS NRF24_Service_Reconfig(void);
+
+NRF24_SERVICE_STATUS NRF24_Service_Init(void);
+NRF24_SERVICE_STATUS NRF24_SoftReset_Init(void);
+void                 NRF24_Toggle_Debug_Pin(void);
+NRF24_SERVICE_STATUS NRF24_SetAddress(uint8_t pipe_idx, uint8_t *address,uint8_t addr_size);
+NRF24_SERVICE_STATUS NRF24_Set_RX_TX(NRF24_TRANSCIVER_MODE trans_mode);
+NRF24_SERVICE_STATUS NRF24_Set_PWRUp(NRF24_PWR_CTRL pwr_mode);
+NRF24_SERVICE_STATUS NRF24_Set_CRC_encoding(NRF24_CRC_ENCODE no_byte);
+NRF24_SERVICE_STATUS NRF24_Config_IRQ_Mask(NRF24_CONFIG_IRQ_MASK irq_mask, bool irq_en);
+NRF24_SERVICE_STATUS NRF24_Set_Addr_Width(NRF24_SET_ADDR_WIDTH add_width);
+NRF24_SERVICE_STATUS NRF24_Set_Auto_Retransmit_Delay(NRF24_RETRANSMIT_DELAY delay_rt);
+NRF24_SERVICE_STATUS NRF24_Set_Auto_Retransmit_Count(uint8_t set_count);
+NRF24_SERVICE_STATUS NRF24_Set_RF_Channel(uint8_t rf_channel);
+NRF24_SERVICE_STATUS NRF24_Set_RF_Data_Rate(NRF24_DATA_RATE data_rate);
+NRF24_SERVICE_STATUS NRF24_Set_RF_PWR(NRF24_OUTPUT_PWR rf_pwr);
+NRF24_RECEIVE_PWR    NRF24_Get_PWR_Received_status(void);
+NRF24_TXFIFO_STATUS  NRF24_Get_TX_FIFO_Status(void);
+NRF24_RXFIFO_STATUS  NRF24_Get_RX_FIFO_Status(void);
+NRF24_SERVICE_STATUS NRF24_Set_DYNPLD_For_PIPE(uint8_t pipe_idx, NRF24_DYNAMIC_PLD mode);
+NRF24_SERVICE_STATUS NRF24_En_Dis_DYN_PLD(NRF24_DYNAMIC_PLD_MODE mode);
+NRF24_SERVICE_STATUS NRF24_En_Dis_ACK_PLD(NRF24_ACK_STATUS mode);
+NRF24_SERVICE_STATUS NRF24_En_Dis_DYN_ACK(NRF24_DYNAMIC_ACK_MODE mode);
+NRF24_SERVICE_STATUS NRF24_Flush_TX_FIFO(void);
+NRF24_SERVICE_STATUS NRF24_Flush_RX_FIFO(void);
+NRF24_SERVICE_STATUS NRF24_Reuse_TX_PL(void);
+NRF24_SERVICE_STATUS NRF24_Read_RX_PLD(NRF24_RX_PLD *pld);
+NRF24_SERVICE_STATUS NRF24_Write_TX_PLD(uint8_t *data, uint8_t data_size);
+NRF24_SERVICE_STATUS NRF24_Write_TX_PLD_ACK(uint8_t pipe_idx, uint8_t *data, uint8_t data_size);
+NRF24_SERVICE_STATUS NRF24_Write_ACK_PLD(uint8_t pipe_idx, uint8_t *data, uint8_t *data_size);
+NRF24_SERVICE_STATUS NRF24_En_Dis_PIPE(NRF24_ENABLE_RX_PIPE pipe, bool is_en);
+NRF24_SERVICE_STATUS NRF24_ClearIRQ(NRF24_IRQ irq_clear);
+NRF24_IRQ            NRF24_GetIRQ_Status(void);
+NRF24_SERVICE_STATUS NRF24_Control_PTX_PRX(NRF24_ENABLE_PTX_PRX mode);
+
+#endif /* NRF24_SERVICE_NRF24_SERVICE_H_ */
