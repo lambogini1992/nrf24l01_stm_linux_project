@@ -1,0 +1,440 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+AHBPrescTable	Src/system_stm32f1xx.c	/^const uint8_t AHBPrescTable[16U] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};$/;"	v	typeref:typename:const uint8_t[16U]
+APBPrescTable	Src/system_stm32f1xx.c	/^const uint8_t APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};$/;"	v	typeref:typename:const uint8_t[8U]
+BusFault_Handler	Src/stm32f1xx_it.c	/^void BusFault_Handler(void)$/;"	f	typeref:typename:void
+DP83848_PHY_ADDRESS	Inc/stm32f1xx_hal_conf.h	/^#define DP83848_PHY_ADDRESS /;"	d
+DebugMon_Handler	Src/stm32f1xx_it.c	/^void DebugMon_Handler(void)$/;"	f	typeref:typename:void
+ETH_RXBUFNB	Inc/stm32f1xx_hal_conf.h	/^#define ETH_RXBUFNB /;"	d
+ETH_RX_BUF_SIZE	Inc/stm32f1xx_hal_conf.h	/^#define ETH_RX_BUF_SIZE /;"	d
+ETH_TXBUFNB	Inc/stm32f1xx_hal_conf.h	/^#define ETH_TXBUFNB /;"	d
+ETH_TX_BUF_SIZE	Inc/stm32f1xx_hal_conf.h	/^#define ETH_TX_BUF_SIZE /;"	d
+EXTI3_IRQHandler	Src/stm32f1xx_it.c	/^void EXTI3_IRQHandler(void)$/;"	f	typeref:typename:void
+Error_Handler	Src/main.c	/^void Error_Handler(void)$/;"	f	typeref:typename:void
+HAL_CORTEX_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_CORTEX_MODULE_ENABLED$/;"	d
+HAL_DMA_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_DMA_MODULE_ENABLED$/;"	d
+HAL_EXTI_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_EXTI_MODULE_ENABLED$/;"	d
+HAL_FLASH_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_FLASH_MODULE_ENABLED$/;"	d
+HAL_GPIO_EXTI_Callback	nrf24_hal/nrf24_hal.c	/^void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)$/;"	f	typeref:typename:void
+HAL_GPIO_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_GPIO_MODULE_ENABLED$/;"	d
+HAL_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_MODULE_ENABLED$/;"	d
+HAL_MspInit	Src/stm32f1xx_hal_msp.c	/^void HAL_MspInit(void)$/;"	f	typeref:typename:void
+HAL_PWR_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_PWR_MODULE_ENABLED$/;"	d
+HAL_RCC_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_RCC_MODULE_ENABLED$/;"	d
+HAL_SPI_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_SPI_MODULE_ENABLED$/;"	d
+HAL_SPI_MspDeInit	Src/stm32f1xx_hal_msp.c	/^void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)$/;"	f	typeref:typename:void
+HAL_SPI_MspInit	Src/stm32f1xx_hal_msp.c	/^void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)$/;"	f	typeref:typename:void
+HAL_TIM_Base_MspDeInit	Src/stm32f1xx_hal_msp.c	/^void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)$/;"	f	typeref:typename:void
+HAL_TIM_Base_MspInit	Src/stm32f1xx_hal_msp.c	/^void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)$/;"	f	typeref:typename:void
+HAL_TIM_MODULE_ENABLED	Inc/stm32f1xx_hal_conf.h	/^#define HAL_TIM_MODULE_ENABLED$/;"	d
+HAL_TIM_PeriodElapsedCallback	nrf24_hal/nrf24_hal.c	/^void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)$/;"	f	typeref:typename:void
+HSE_STARTUP_TIMEOUT	Inc/stm32f1xx_hal_conf.h	/^  #define HSE_STARTUP_TIMEOUT /;"	d
+HSE_VALUE	Inc/stm32f1xx_hal_conf.h	/^  #define HSE_VALUE /;"	d
+HSE_VALUE	Src/system_stm32f1xx.c	/^  #define HSE_VALUE /;"	d	file:
+HSI_VALUE	Inc/stm32f1xx_hal_conf.h	/^  #define HSI_VALUE /;"	d
+HSI_VALUE	Src/system_stm32f1xx.c	/^  #define HSI_VALUE /;"	d	file:
+HardFault_Handler	Src/stm32f1xx_it.c	/^void HardFault_Handler(void)$/;"	f	typeref:typename:void
+LSE_STARTUP_TIMEOUT	Inc/stm32f1xx_hal_conf.h	/^  #define LSE_STARTUP_TIMEOUT /;"	d
+LSE_VALUE	Inc/stm32f1xx_hal_conf.h	/^  #define LSE_VALUE /;"	d
+LSI_VALUE	Inc/stm32f1xx_hal_conf.h	/^ #define LSI_VALUE /;"	d
+MAC_ADDR0	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR0 /;"	d
+MAC_ADDR1	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR1 /;"	d
+MAC_ADDR2	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR2 /;"	d
+MAC_ADDR3	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR3 /;"	d
+MAC_ADDR4	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR4 /;"	d
+MAC_ADDR5	Inc/stm32f1xx_hal_conf.h	/^#define MAC_ADDR5 /;"	d
+MemManage_Handler	Src/stm32f1xx_it.c	/^void MemManage_Handler(void)$/;"	f	typeref:typename:void
+NMI_Handler	Src/stm32f1xx_it.c	/^void NMI_Handler(void)$/;"	f	typeref:typename:void
+NRF24_ACK_STATUS	nrf24_service/nrf24_service.h	/^}NRF24_ACK_STATUS;$/;"	t	typeref:enum:_nrf24_set_ack_
+NRF24_ACK_STATUS_OFF	nrf24_service/nrf24_service.h	/^  NRF24_ACK_STATUS_OFF = 0,$/;"	e	enum:_nrf24_set_ack_
+NRF24_ACK_STATUS_ON	nrf24_service/nrf24_service.h	/^  NRF24_ACK_STATUS_ON  = 2,$/;"	e	enum:_nrf24_set_ack_
+NRF24_CMD_FLUSH_RX	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_FLUSH_RX /;"	d
+NRF24_CMD_FLUSH_TX	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_FLUSH_TX /;"	d
+NRF24_CMD_NO_OPERATIONS	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_NO_OPERATIONS /;"	d
+NRF24_CMD_READ_RX_PAYLOAD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_READ_RX_PAYLOAD /;"	d
+NRF24_CMD_READ_RX_PLD_WIDTH	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_READ_RX_PLD_WIDTH /;"	d
+NRF24_CMD_REUSE_TX_PLD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_REUSE_TX_PLD /;"	d
+NRF24_CMD_TX_PLD_NO_ACK	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_TX_PLD_NO_ACK /;"	d
+NRF24_CMD_WRITE_TX_PAYLOAD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_WRITE_TX_PAYLOAD /;"	d
+NRF24_CMD_W_ACK_PAYLOAD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_CMD_W_ACK_PAYLOAD /;"	d
+NRF24_CONFIG_IRQ_MASK	nrf24_service/nrf24_service.h	/^}NRF24_CONFIG_IRQ_MASK;$/;"	t	typeref:enum:_nrf24_config_irq_mask_
+NRF24_CONFIG_IRQ_MASK_ALL	nrf24_service/nrf24_service.h	/^  NRF24_CONFIG_IRQ_MASK_ALL     = 112$/;"	e	enum:_nrf24_config_irq_mask_
+NRF24_CONFIG_IRQ_MASK_MAX_RT	nrf24_service/nrf24_service.h	/^  NRF24_CONFIG_IRQ_MASK_MAX_RT  = 16,$/;"	e	enum:_nrf24_config_irq_mask_
+NRF24_CONFIG_IRQ_MASK_RX_DR	nrf24_service/nrf24_service.h	/^  NRF24_CONFIG_IRQ_MASK_RX_DR   = 64,$/;"	e	enum:_nrf24_config_irq_mask_
+NRF24_CONFIG_IRQ_MASK_TX_DS	nrf24_service/nrf24_service.h	/^  NRF24_CONFIG_IRQ_MASK_TX_DS   = 32,$/;"	e	enum:_nrf24_config_irq_mask_
+NRF24_CONTROL_MODE	nrf24_service/nrf24_service.h	/^}NRF24_CONTROL_MODE;$/;"	t	typeref:enum:_nrf24_control_mode_
+NRF24_CONTROL_MODE_ACTIVE_TX_RX	nrf24_service/nrf24_service.h	/^	NRF24_CONTROL_MODE_ACTIVE_TX_RX$/;"	e	enum:_nrf24_control_mode_
+NRF24_CONTROL_MODE_STANDBY	nrf24_service/nrf24_service.h	/^	NRF24_CONTROL_MODE_STANDBY = 0,$/;"	e	enum:_nrf24_control_mode_
+NRF24_CRC_ENCODE	nrf24_service/nrf24_service.h	/^}NRF24_CRC_ENCODE;$/;"	t	typeref:enum:_nrf24_crc_encode_
+NRF24_CRC_ENCODE_1BYTE	nrf24_service/nrf24_service.h	/^  NRF24_CRC_ENCODE_1BYTE  = 0x08,$/;"	e	enum:_nrf24_crc_encode_
+NRF24_CRC_ENCODE_2BYTE	nrf24_service/nrf24_service.h	/^  NRF24_CRC_ENCODE_2BYTE  = 0x0C,$/;"	e	enum:_nrf24_crc_encode_
+NRF24_CRC_ENCODE_OFF	nrf24_service/nrf24_service.h	/^  NRF24_CRC_ENCODE_OFF    = 0x00,$/;"	e	enum:_nrf24_crc_encode_
+NRF24_ClearIRQ	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_ClearIRQ(NRF24_IRQ irq_clear)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Config_IRQ_Mask	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Config_IRQ_Mask(NRF24_CONFIG_IRQ_MASK irq_mask, bool irq_en)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Control_Mode_Standby_Active	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Control_Shockbrust	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Control_Shockbrust(NRF24_ENABLE_PTX_PRX mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_DATA_RATE	nrf24_service/nrf24_service.h	/^}NRF24_DATA_RATE;$/;"	t	typeref:enum:_nrf24_data_rate_
+NRF24_DATA_RATE_1MBPS	nrf24_service/nrf24_service.h	/^  NRF24_DATA_RATE_1MBPS   = 0x00,$/;"	e	enum:_nrf24_data_rate_
+NRF24_DATA_RATE_250KBPS	nrf24_service/nrf24_service.h	/^  NRF24_DATA_RATE_250KBPS = 0x20,$/;"	e	enum:_nrf24_data_rate_
+NRF24_DATA_RATE_2MBPS	nrf24_service/nrf24_service.h	/^  NRF24_DATA_RATE_2MBPS   = 0x80$/;"	e	enum:_nrf24_data_rate_
+NRF24_DYNAMIC_ACK_MODE	nrf24_service/nrf24_service.h	/^}NRF24_DYNAMIC_ACK_MODE;$/;"	t	typeref:enum:_nrf24_dynamic_ACK_mode_
+NRF24_DYNAMIC_ACK_MODE_OFF	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_ACK_MODE_OFF = 0,$/;"	e	enum:_nrf24_dynamic_ACK_mode_
+NRF24_DYNAMIC_ACK_MODE_ON	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_ACK_MODE_ON  = 1,$/;"	e	enum:_nrf24_dynamic_ACK_mode_
+NRF24_DYNAMIC_PLD	nrf24_service/nrf24_service.h	/^}NRF24_DYNAMIC_PLD;$/;"	t	typeref:enum:_nrf24_dynamic_pld_
+NRF24_DYNAMIC_PLD_MODE	nrf24_service/nrf24_service.h	/^}NRF24_DYNAMIC_PLD_MODE;$/;"	t	typeref:enum:_nrf24_dynamic_pld_mode_
+NRF24_DYNAMIC_PLD_MODE_OFF	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_PLD_MODE_OFF = 0,$/;"	e	enum:_nrf24_dynamic_pld_mode_
+NRF24_DYNAMIC_PLD_MODE_ON	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_PLD_MODE_ON  = 4,$/;"	e	enum:_nrf24_dynamic_pld_mode_
+NRF24_DYNAMIC_PLD_OFF	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_PLD_OFF = 0x00,$/;"	e	enum:_nrf24_dynamic_pld_
+NRF24_DYNAMIC_PLD_ON	nrf24_service/nrf24_service.h	/^  NRF24_DYNAMIC_PLD_ON  = 0x01$/;"	e	enum:_nrf24_dynamic_pld_
+NRF24_ENABLE_PTX_PRX	nrf24_service/nrf24_service.h	/^}NRF24_ENABLE_PTX_PRX;$/;"	t	typeref:enum:_nrf24_enable_ptx_prx_
+NRF24_ENABLE_PTX_PRX_OFF	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_PTX_PRX_OFF = 0,$/;"	e	enum:_nrf24_enable_ptx_prx_
+NRF24_ENABLE_PTX_PRX_ON	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_PTX_PRX_ON$/;"	e	enum:_nrf24_enable_ptx_prx_
+NRF24_ENABLE_RX_ALL_PIPE	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_ALL_PIPE = 63$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE	nrf24_service/nrf24_service.h	/^}NRF24_ENABLE_RX_PIPE;$/;"	t	typeref:enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE0	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE0 = 1,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE1	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE1 = 2,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE2	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE2 = 4,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE3	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE3 = 8,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE4	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE4 = 16,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_ENABLE_RX_PIPE5	nrf24_service/nrf24_service.h	/^  NRF24_ENABLE_RX_PIPE5 = 32,$/;"	e	enum:_nrf24_enable_rx_pipe_
+NRF24_En_Dis_ACK_PLD	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_En_Dis_ACK_PLD(NRF24_ACK_STATUS mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_En_Dis_DYN_ACK	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_En_Dis_DYN_ACK(NRF24_DYNAMIC_ACK_MODE mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_En_Dis_DYN_PLD	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_En_Dis_DYN_PLD(NRF24_DYNAMIC_PLD_MODE mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_En_Dis_PIPE	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_En_Dis_PIPE(NRF24_ENABLE_RX_PIPE pipe, bool is_en)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Flush_RX_FIFO	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Flush_RX_FIFO(void)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Flush_TX_FIFO	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Flush_TX_FIFO(void)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_GetIRQ_Status	nrf24_service/nrf24_service.c	/^NRF24_IRQ NRF24_GetIRQ_Status(void)$/;"	f	typeref:typename:NRF24_IRQ
+NRF24_Get_PWR_Received_status	nrf24_service/nrf24_service.c	/^NRF24_RECEIVE_PWR NRF24_Get_PWR_Received_status(void)$/;"	f	typeref:typename:NRF24_RECEIVE_PWR
+NRF24_Get_RX_FIFO_Status	nrf24_service/nrf24_service.c	/^NRF24_RXFIFO_STATUS  NRF24_Get_RX_FIFO_Status(void)$/;"	f	typeref:typename:NRF24_RXFIFO_STATUS
+NRF24_Get_TX_FIFO_Status	nrf24_service/nrf24_service.c	/^NRF24_TXFIFO_STATUS  NRF24_Get_TX_FIFO_Status(void)$/;"	f	typeref:typename:NRF24_TXFIFO_STATUS
+NRF24_HAL_CE_PIN	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_CE_PIN /;"	d	file:
+NRF24_HAL_CE_PORT	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_CE_PORT /;"	d	file:
+NRF24_HAL_CE_STATUS	nrf24_hal/nrf24_hal.h	/^}NRF24_HAL_CE_STATUS;$/;"	t	typeref:enum:_nrf24_hal_CE_status
+NRF24_HAL_CE_STATUS_HIGH	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_CE_STATUS_HIGH$/;"	e	enum:_nrf24_hal_CE_status
+NRF24_HAL_CE_STATUS_LOW	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_CE_STATUS_LOW = 0,$/;"	e	enum:_nrf24_hal_CE_status
+NRF24_HAL_CMD	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_CMD(uint8_t cmd, uint8_t *data, uint16_t data_size, uint16_t time_out/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_CS_PIN	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_CS_PIN /;"	d	file:
+NRF24_HAL_CS_PORT	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_CS_PORT /;"	d	file:
+NRF24_HAL_Control_CE	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS status)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_Control_DEBUG	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS    NRF24_HAL_Control_DEBUG (NRF24_HAL_DEBUG_STATUS status)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_DEBUG_PIN	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_DEBUG_PIN /;"	d	file:
+NRF24_HAL_DEBUG_PORT	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_DEBUG_PORT /;"	d	file:
+NRF24_HAL_DEBUG_STATUS	nrf24_hal/nrf24_hal.h	/^}NRF24_HAL_DEBUG_STATUS;$/;"	t	typeref:enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DEBUG_STATUS_HIGH	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_DEBUG_STATUS_HIGH$/;"	e	enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DEBUG_STATUS_LOW	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_DEBUG_STATUS_LOW = 0,$/;"	e	enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DUMMY_BYTE_SPI	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_DUMMY_BYTE_SPI /;"	d	file:
+NRF24_HAL_Get_CE_Status	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_CE_STATUS NRF24_HAL_Get_CE_Status (void)$/;"	f	typeref:typename:NRF24_HAL_CE_STATUS
+NRF24_HAL_HANDLER	nrf24_hal/nrf24_hal.h	/^}NRF24_HAL_HANDLER;$/;"	t	typeref:struct:_nrf24_hal_handler_
+NRF24_HAL_INVALID_DATA	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_INVALID_DATA /;"	d	file:
+NRF24_HAL_INVALID_DATA_LENGTH	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_INVALID_DATA_LENGTH /;"	d	file:
+NRF24_HAL_IRQ_PIN	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_IRQ_PIN /;"	d	file:
+NRF24_HAL_IRQ_PORT	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_IRQ_PORT /;"	d	file:
+NRF24_HAL_Init	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Init(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_MULTI_MODE_PTX_PRX	nrf24_hal/nrf24_hal.h	/^#define NRF24_HAL_MULTI_MODE_PTX_PRX /;"	d
+NRF24_HAL_NRF24_HAL_H_	nrf24_hal/nrf24_hal.h	/^#define NRF24_HAL_NRF24_HAL_H_$/;"	d
+NRF24_HAL_READ_REG_CMD	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_READ_REG_CMD /;"	d	file:
+NRF24_HAL_Read	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Read(uint8_t reg_add, uint8_t *data, uint16_t data_size, uint16_t tim/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_SPI_STATUS	nrf24_hal/nrf24_hal.c	/^}NRF24_HAL_SPI_STATUS;$/;"	t	typeref:enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_SPI_STATUS_DISABLE	nrf24_hal/nrf24_hal.c	/^    NRF24_HAL_SPI_STATUS_DISABLE$/;"	e	enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_SPI_STATUS_ENABLE	nrf24_hal/nrf24_hal.c	/^    NRF24_HAL_SPI_STATUS_ENABLE = 0,$/;"	e	enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_STATUS	nrf24_hal/nrf24_hal.h	/^}NRF24_HAL_STATUS;$/;"	t	typeref:enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_FAIL	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_STATUS_FAIL,$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_MAX	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_STATUS_MAX$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_OK	nrf24_hal/nrf24_hal.h	/^    NRF24_HAL_STATUS_OK = 0,$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_TIME_COUNT	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_TIME_COUNT /;"	d	file:
+NRF24_HAL_TIME_PRESCALER	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_TIME_PRESCALER /;"	d	file:
+NRF24_HAL_WRITE_REG_CMD	nrf24_hal/nrf24_hal.c	/^#define NRF24_HAL_WRITE_REG_CMD /;"	d	file:
+NRF24_HAL_Write	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Write(uint8_t reg_add, uint8_t *data, uint16_t data_size, uint16_t ti/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_control_spi	nrf24_hal/nrf24_hal.c	/^void NRF24_HAL_control_spi(NRF24_HAL_SPI_STATUS ctrl_status)$/;"	f	typeref:typename:void
+NRF24_HAL_init_clock	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_clock(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_gpio	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_gpio(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_spi	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_spi(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_timer	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_timer(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_Handle_IRQ_Pin_Signal	nrf24_service/nrf24_service.c	/^static uint8_t NRF24_Handle_IRQ_Pin_Signal(void)$/;"	f	typeref:typename:uint8_t	file:
+NRF24_Handle_Timer_IRQ	nrf24_service/nrf24_service.c	/^static uint8_t NRF24_Handle_Timer_IRQ(void)$/;"	f	typeref:typename:uint8_t	file:
+NRF24_IRQ	nrf24_service/nrf24_service.h	/^}NRF24_IRQ;$/;"	t	typeref:enum:_nrf24_irq_
+NRF24_IRQ_INVALID	nrf24_service/nrf24_service.h	/^  NRF24_IRQ_INVALID        = 0xFF$/;"	e	enum:_nrf24_irq_
+NRF24_IRQ_MAX_RETRANSMIT	nrf24_service/nrf24_service.h	/^  NRF24_IRQ_MAX_RETRANSMIT  = 0x08,$/;"	e	enum:_nrf24_irq_
+NRF24_IRQ_RX_DATA_READY	nrf24_service/nrf24_service.h	/^  NRF24_IRQ_RX_DATA_READY   = 0x20,$/;"	e	enum:_nrf24_irq_
+NRF24_IRQ_TX_DATA_SENT	nrf24_service/nrf24_service.h	/^  NRF24_IRQ_TX_DATA_SENT    = 0x10,$/;"	e	enum:_nrf24_irq_
+NRF24_MAX_NO_ADDR_PIPE	nrf24_service/nrf24_service.c	/^#define NRF24_MAX_NO_ADDR_PIPE /;"	d	file:
+NRF24_MAX_NO_PIPE	nrf24_service/nrf24_service.c	/^#define NRF24_MAX_NO_PIPE /;"	d	file:
+NRF24_MAX_PIPE_IDX	nrf24_service/nrf24_service.c	/^#define NRF24_MAX_PIPE_IDX /;"	d	file:
+NRF24_MAX_PKT_RX_ARRAY	nrf24_service/nrf24_service.c	/^#define NRF24_MAX_PKT_RX_ARRAY /;"	d	file:
+NRF24_MAX_PKT_TX_ARRAY	nrf24_service/nrf24_service.c	/^#define NRF24_MAX_PKT_TX_ARRAY /;"	d	file:
+NRF24_OUTPUT_PWR	nrf24_service/nrf24_service.h	/^}NRF24_OUTPUT_PWR;$/;"	t	typeref:enum:_nrf24_output_pwr_
+NRF24_OUTPUT_PWR_0DBM	nrf24_service/nrf24_service.h	/^  NRF24_OUTPUT_PWR_0DBM  = 0x06,$/;"	e	enum:_nrf24_output_pwr_
+NRF24_OUTPUT_PWR_12DBM	nrf24_service/nrf24_service.h	/^  NRF24_OUTPUT_PWR_12DBM = 0x02,$/;"	e	enum:_nrf24_output_pwr_
+NRF24_OUTPUT_PWR_18DBM	nrf24_service/nrf24_service.h	/^  NRF24_OUTPUT_PWR_18DBM = 0x00,$/;"	e	enum:_nrf24_output_pwr_
+NRF24_OUTPUT_PWR_6DBM	nrf24_service/nrf24_service.h	/^  NRF24_OUTPUT_PWR_6DBM  = 0x04,$/;"	e	enum:_nrf24_output_pwr_
+NRF24_PIPE_ADDRESS	nrf24_service/nrf24_service.h	/^}NRF24_PIPE_ADDRESS;$/;"	t	typeref:enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX0	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX0 = 0,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX1	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX1,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX2	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX2,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX3	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX3,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX4	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX4,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_RX5	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_RX5,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_ADDRESS_TX	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_ADDRESS_TX,$/;"	e	enum:_nrf24_pipe_address_
+NRF24_PIPE_PROFILE	nrf24_service/nrf24_service.h	/^}NRF24_PIPE_PROFILE;$/;"	t	typeref:struct:_nrf24_pipe_profile_
+NRF24_PWR_CTRL	nrf24_service/nrf24_service.h	/^}NRF24_PWR_CTRL;$/;"	t	typeref:enum:_nrf24_pwr_ctrl_
+NRF24_PWR_CTRL_DOWN	nrf24_service/nrf24_service.h	/^  NRF24_PWR_CTRL_DOWN = 0x00,$/;"	e	enum:_nrf24_pwr_ctrl_
+NRF24_PWR_CTRL_UP	nrf24_service/nrf24_service.h	/^  NRF24_PWR_CTRL_UP   = 0x02,$/;"	e	enum:_nrf24_pwr_ctrl_
+NRF24_RECEIVE_PWR	nrf24_service/nrf24_service.h	/^}NRF24_RECEIVE_PWR;$/;"	t	typeref:enum:_nrf24_receive_pwr_
+NRF24_RECEIVE_PWR_DETECTED	nrf24_service/nrf24_service.h	/^  NRF24_RECEIVE_PWR_DETECTED,$/;"	e	enum:_nrf24_receive_pwr_
+NRF24_RECEIVE_PWR_NONE	nrf24_service/nrf24_service.h	/^  NRF24_RECEIVE_PWR_NONE = 0,$/;"	e	enum:_nrf24_receive_pwr_
+NRF24_REG_CONFIG	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_CONFIG /;"	d
+NRF24_REG_DYNAMIC_PLD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_DYNAMIC_PLD /;"	d
+NRF24_REG_EN_ACK	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_EN_ACK /;"	d
+NRF24_REG_EN_RXADD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_EN_RXADD /;"	d
+NRF24_REG_FEATURE	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_FEATURE /;"	d
+NRF24_REG_FIFO_STATUS	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_FIFO_STATUS /;"	d
+NRF24_REG_OBSERVER_TX	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_OBSERVER_TX /;"	d
+NRF24_REG_RF_CHANNEL	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RF_CHANNEL /;"	d
+NRF24_REG_RPD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RPD /;"	d
+NRF24_REG_RX_ADD0	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD0 /;"	d
+NRF24_REG_RX_ADD1	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD1 /;"	d
+NRF24_REG_RX_ADD2	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD2 /;"	d
+NRF24_REG_RX_ADD3	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD3 /;"	d
+NRF24_REG_RX_ADD4	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD4 /;"	d
+NRF24_REG_RX_ADD5	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_ADD5 /;"	d
+NRF24_REG_RX_PW_P0	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P0 /;"	d
+NRF24_REG_RX_PW_P1	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P1 /;"	d
+NRF24_REG_RX_PW_P2	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P2 /;"	d
+NRF24_REG_RX_PW_P3	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P3 /;"	d
+NRF24_REG_RX_PW_P4	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P4 /;"	d
+NRF24_REG_RX_PW_P5	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_RX_PW_P5 /;"	d
+NRF24_REG_SET_ADD_WIDTH	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_SET_ADD_WIDTH /;"	d
+NRF24_REG_SET_RETRANSMIT	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_SET_RETRANSMIT /;"	d
+NRF24_REG_SET_RF	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_SET_RF /;"	d
+NRF24_REG_STATUS	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_STATUS /;"	d
+NRF24_REG_TX_ADD	nrf24_service/nrf24_reg_def.h	/^#define NRF24_REG_TX_ADD /;"	d
+NRF24_RETRANSMIT_DELAY	nrf24_service/nrf24_service.h	/^}NRF24_RETRANSMIT_DELAY;$/;"	t	typeref:enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_1000US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_1000US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_1250US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_1250US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_1500US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_1500US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_1750US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_1750US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_2000US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_2000US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_2250US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_2250US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_2500US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_2500US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_250US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_250US = 0,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_2750US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_2750US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_3000US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_3000US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_3250US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_3250US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_3500US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_3500US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_3750US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_3750US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_4000US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_4000US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_500US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_500US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RETRANSMIT_DELAY_750US	nrf24_service/nrf24_service.h	/^  NRF24_RETRANSMIT_DELAY_750US,$/;"	e	enum:_nrf24_retransmit_delay_
+NRF24_RXFIFO_DATA_PIPE	nrf24_service/nrf24_service.h	/^}NRF24_RXFIFO_DATA_PIPE;$/;"	t	typeref:enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE0	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE0 = 0,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE1	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE1,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE2	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE2,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE3	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE3,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE4	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE4,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE5	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE5,$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_DATA_PIPE_EMPTY	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_DATA_PIPE_EMPTY = 0xFF$/;"	e	enum:_nrf24_rxfifo_data_pipe_
+NRF24_RXFIFO_STATUS	nrf24_service/nrf24_service.h	/^}NRF24_RXFIFO_STATUS;$/;"	t	typeref:enum:_nrf24_rxfifo_status_
+NRF24_RXFIFO_STATUS_DATA	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_STATUS_DATA = 0,$/;"	e	enum:_nrf24_rxfifo_status_
+NRF24_RXFIFO_STATUS_EMPTY	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_STATUS_EMPTY,$/;"	e	enum:_nrf24_rxfifo_status_
+NRF24_RXFIFO_STATUS_ERROR	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_STATUS_ERROR$/;"	e	enum:_nrf24_rxfifo_status_
+NRF24_RXFIFO_STATUS_FULL	nrf24_service/nrf24_service.h	/^  NRF24_RXFIFO_STATUS_FULL,$/;"	e	enum:_nrf24_rxfifo_status_
+NRF24_RX_PLD	nrf24_service/nrf24_service.h	/^}NRF24_RX_PLD;$/;"	t	typeref:struct:_nrf24_rx_data_pld_
+NRF24_Read_RX_PLD	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Read_RX_PLD(NRF24_RX_PLD *pld)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Reuse_TX_PL	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Reuse_TX_PL(void)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_SERVICE_HANDLER	nrf24_service/nrf24_service.h	/^}NRF24_SERVICE_HANDLER;$/;"	t	typeref:struct:_nrf24_service_handler_
+NRF24_SERVICE_NRF24_REG_DEF_H_	nrf24_service/nrf24_reg_def.h	/^#define NRF24_SERVICE_NRF24_REG_DEF_H_$/;"	d
+NRF24_SERVICE_NRF24_SERVICE_H_	nrf24_service/nrf24_service.h	/^#define NRF24_SERVICE_NRF24_SERVICE_H_$/;"	d
+NRF24_SERVICE_STATUS	nrf24_service/nrf24_service.h	/^}NRF24_SERVICE_STATUS;$/;"	t	typeref:enum:_nrf24_service_status_
+NRF24_SERVICE_STATUS_FAIL	nrf24_service/nrf24_service.h	/^  NRF24_SERVICE_STATUS_FAIL,$/;"	e	enum:_nrf24_service_status_
+NRF24_SERVICE_STATUS_MAX	nrf24_service/nrf24_service.h	/^  NRF24_SERVICE_STATUS_MAX$/;"	e	enum:_nrf24_service_status_
+NRF24_SERVICE_STATUS_OK	nrf24_service/nrf24_service.h	/^  NRF24_SERVICE_STATUS_OK = 0,$/;"	e	enum:_nrf24_service_status_
+NRF24_SET_ADDR_WIDTH	nrf24_service/nrf24_service.h	/^}NRF24_SET_ADDR_WIDTH;$/;"	t	typeref:enum:_nrf24_set_addr_width_
+NRF24_SET_ADDR_WIDTH_3BYTE	nrf24_service/nrf24_service.h	/^  NRF24_SET_ADDR_WIDTH_3BYTE,$/;"	e	enum:_nrf24_set_addr_width_
+NRF24_SET_ADDR_WIDTH_4BYTE	nrf24_service/nrf24_service.h	/^  NRF24_SET_ADDR_WIDTH_4BYTE,$/;"	e	enum:_nrf24_set_addr_width_
+NRF24_SET_ADDR_WIDTH_5BYTE	nrf24_service/nrf24_service.h	/^  NRF24_SET_ADDR_WIDTH_5BYTE$/;"	e	enum:_nrf24_set_addr_width_
+NRF24_SET_ADDR_WIDTH_INVALID	nrf24_service/nrf24_service.h	/^  NRF24_SET_ADDR_WIDTH_INVALID = 0,$/;"	e	enum:_nrf24_set_addr_width_
+NRF24_Service_Init	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Service_Init(void)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_SetAddress	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_SetAddress(uint8_t pipe_idx, uint8_t *address,uint8_t addr_size)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_Addr_Width	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_Addr_Width(NRF24_SET_ADDR_WIDTH add_width)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_Auto_Retransmit_Count	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_Auto_Retransmit_Count(uint8_t set_count)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_Auto_Retransmit_Delay	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_Auto_Retransmit_Delay(NRF24_RETRANSMIT_DELAY delay_rt)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_CRC_encoding	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_CRC_encoding(NRF24_CRC_ENCODE no_byte)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_DYNPLD_For_PIPE	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_DYNPLD_For_PIPE(uint8_t pipe_idx, NRF24_DYNAMIC_PLD mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_PWRUp	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_PWRUp(NRF24_PWR_CTRL pwr_mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_RF_Channel	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_RF_Channel(uint8_t rf_channel)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_RF_Data_Rate	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_RF_Data_Rate(NRF24_DATA_RATE data_rate)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_RF_PWR	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_RF_PWR(NRF24_OUTPUT_PWR rf_pwr)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Set_RX_TX	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Set_RX_TX(NRF24_TRANSCIVER_MODE trans_mode)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_SoftReset_Init	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_SoftReset_Init(void)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_TRANSCIVER_MODE	nrf24_service/nrf24_service.h	/^}NRF24_TRANSCIVER_MODE;$/;"	t	typeref:enum:_nrf24_transciver_mode_
+NRF24_TRANSCIVER_MODE_RX	nrf24_service/nrf24_service.h	/^  NRF24_TRANSCIVER_MODE_RX,$/;"	e	enum:_nrf24_transciver_mode_
+NRF24_TRANSCIVER_MODE_TX	nrf24_service/nrf24_service.h	/^  NRF24_TRANSCIVER_MODE_TX = 0x00,$/;"	e	enum:_nrf24_transciver_mode_
+NRF24_TXFIFO_STATUS	nrf24_service/nrf24_service.h	/^}NRF24_TXFIFO_STATUS;$/;"	t	typeref:enum:_nrf24_txfifo_status_
+NRF24_TXFIFO_STATUS_DATA	nrf24_service/nrf24_service.h	/^  NRF24_TXFIFO_STATUS_DATA = 0,$/;"	e	enum:_nrf24_txfifo_status_
+NRF24_TXFIFO_STATUS_EMPTY	nrf24_service/nrf24_service.h	/^  NRF24_TXFIFO_STATUS_EMPTY,$/;"	e	enum:_nrf24_txfifo_status_
+NRF24_TXFIFO_STATUS_ERROR	nrf24_service/nrf24_service.h	/^  NRF24_TXFIFO_STATUS_ERROR$/;"	e	enum:_nrf24_txfifo_status_
+NRF24_TXFIFO_STATUS_FULL	nrf24_service/nrf24_service.h	/^  NRF24_TXFIFO_STATUS_FULL,$/;"	e	enum:_nrf24_txfifo_status_
+NRF24_TX_DATA_PLD	nrf24_service/nrf24_service.h	/^}NRF24_TX_DATA_PLD;$/;"	t	typeref:struct:_nrf24_tx_data_pld_
+NRF24_Toggle_Debug_Pin	nrf24_service/nrf24_service.c	/^void NRF24_Toggle_Debug_Pin(void)$/;"	f	typeref:typename:void
+NRF24_Write_TX_PLD	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Write_TX_PLD(uint8_t *data, uint8_t data_size)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_Write_TX_PLD_ACK	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_STATUS NRF24_Write_TX_PLD_ACK(uint8_t pipe_idx, uint8_t *data, uint8_t data_size)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS
+NRF24_get_pld_data_in_RX_FIFO	nrf24_service/nrf24_service.c	/^static NRF24_SERVICE_STATUS NRF24_get_pld_data_in_RX_FIFO(uint8_t *pld, uint8_t pld_size)$/;"	f	typeref:typename:NRF24_SERVICE_STATUS	file:
+NRF24_get_pld_size_of_rx_pipe	nrf24_service/nrf24_service.c	/^static uint8_t NRF24_get_pld_size_of_rx_pipe(uint8_t pipe_idx)$/;"	f	typeref:typename:uint8_t	file:
+NRF24_get_status_reg	nrf24_service/nrf24_service.c	/^static uint8_t NRF24_get_status_reg(void)$/;"	f	typeref:typename:uint8_t	file:
+NRF24_rx_pw_pipes	nrf24_service/nrf24_service.c	/^static uint8_t NRF24_rx_pw_pipes[NRF24_MAX_NO_PIPE] =$/;"	v	typeref:typename:uint8_t[]	file:
+PHY_AUTONEGOTIATION	Inc/stm32f1xx_hal_conf.h	/^#define PHY_AUTONEGOTIATION /;"	d
+PHY_AUTONEGO_COMPLETE	Inc/stm32f1xx_hal_conf.h	/^#define PHY_AUTONEGO_COMPLETE /;"	d
+PHY_BCR	Inc/stm32f1xx_hal_conf.h	/^#define PHY_BCR /;"	d
+PHY_BSR	Inc/stm32f1xx_hal_conf.h	/^#define PHY_BSR /;"	d
+PHY_CONFIG_DELAY	Inc/stm32f1xx_hal_conf.h	/^#define PHY_CONFIG_DELAY /;"	d
+PHY_DUPLEX_STATUS	Inc/stm32f1xx_hal_conf.h	/^#define PHY_DUPLEX_STATUS /;"	d
+PHY_FULLDUPLEX_100M	Inc/stm32f1xx_hal_conf.h	/^#define PHY_FULLDUPLEX_100M /;"	d
+PHY_FULLDUPLEX_10M	Inc/stm32f1xx_hal_conf.h	/^#define PHY_FULLDUPLEX_10M /;"	d
+PHY_HALFDUPLEX_100M	Inc/stm32f1xx_hal_conf.h	/^#define PHY_HALFDUPLEX_100M /;"	d
+PHY_HALFDUPLEX_10M	Inc/stm32f1xx_hal_conf.h	/^#define PHY_HALFDUPLEX_10M /;"	d
+PHY_ISOLATE	Inc/stm32f1xx_hal_conf.h	/^#define PHY_ISOLATE /;"	d
+PHY_JABBER_DETECTION	Inc/stm32f1xx_hal_conf.h	/^#define PHY_JABBER_DETECTION /;"	d
+PHY_LINKED_STATUS	Inc/stm32f1xx_hal_conf.h	/^#define PHY_LINKED_STATUS /;"	d
+PHY_LOOPBACK	Inc/stm32f1xx_hal_conf.h	/^#define PHY_LOOPBACK /;"	d
+PHY_POWERDOWN	Inc/stm32f1xx_hal_conf.h	/^#define PHY_POWERDOWN /;"	d
+PHY_READ_TO	Inc/stm32f1xx_hal_conf.h	/^#define PHY_READ_TO /;"	d
+PHY_RESET	Inc/stm32f1xx_hal_conf.h	/^#define PHY_RESET /;"	d
+PHY_RESET_DELAY	Inc/stm32f1xx_hal_conf.h	/^#define PHY_RESET_DELAY /;"	d
+PHY_RESTART_AUTONEGOTIATION	Inc/stm32f1xx_hal_conf.h	/^#define PHY_RESTART_AUTONEGOTIATION /;"	d
+PHY_SPEED_STATUS	Inc/stm32f1xx_hal_conf.h	/^#define PHY_SPEED_STATUS /;"	d
+PHY_SR	Inc/stm32f1xx_hal_conf.h	/^#define PHY_SR /;"	d
+PHY_WRITE_TO	Inc/stm32f1xx_hal_conf.h	/^#define PHY_WRITE_TO /;"	d
+PREFETCH_ENABLE	Inc/stm32f1xx_hal_conf.h	/^#define  PREFETCH_ENABLE /;"	d
+PendSV_Handler	Src/stm32f1xx_it.c	/^void PendSV_Handler(void)$/;"	f	typeref:typename:void
+SVC_Handler	Src/stm32f1xx_it.c	/^void SVC_Handler(void)$/;"	f	typeref:typename:void
+SysTick_Handler	Src/stm32f1xx_it.c	/^void SysTick_Handler(void)$/;"	f	typeref:typename:void
+SystemCoreClock	Src/system_stm32f1xx.c	/^uint32_t SystemCoreClock = 16000000;$/;"	v	typeref:typename:uint32_t
+SystemCoreClockUpdate	Src/system_stm32f1xx.c	/^void SystemCoreClockUpdate (void)$/;"	f	typeref:typename:void
+SystemInit	Src/system_stm32f1xx.c	/^void SystemInit (void)$/;"	f	typeref:typename:void
+SystemInit_ExtMemCtl	Src/system_stm32f1xx.c	/^void SystemInit_ExtMemCtl(void) $/;"	f	typeref:typename:void
+TICK_INT_PRIORITY	Inc/stm32f1xx_hal_conf.h	/^#define  TICK_INT_PRIORITY /;"	d
+TIM1_BRK_IRQHandler	Src/stm32f1xx_it.c	/^void TIM1_BRK_IRQHandler(void)$/;"	f	typeref:typename:void
+USE_HAL_ADC_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_ADC_REGISTER_CALLBACKS /;"	d
+USE_HAL_CAN_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_CAN_REGISTER_CALLBACKS /;"	d
+USE_HAL_CEC_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_CEC_REGISTER_CALLBACKS /;"	d
+USE_HAL_DAC_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_DAC_REGISTER_CALLBACKS /;"	d
+USE_HAL_ETH_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_ETH_REGISTER_CALLBACKS /;"	d
+USE_HAL_HCD_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_HCD_REGISTER_CALLBACKS /;"	d
+USE_HAL_I2C_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_I2C_REGISTER_CALLBACKS /;"	d
+USE_HAL_I2S_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_I2S_REGISTER_CALLBACKS /;"	d
+USE_HAL_IRDA_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_IRDA_REGISTER_CALLBACKS /;"	d
+USE_HAL_MMC_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_MMC_REGISTER_CALLBACKS /;"	d
+USE_HAL_NAND_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_NAND_REGISTER_CALLBACKS /;"	d
+USE_HAL_NOR_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_NOR_REGISTER_CALLBACKS /;"	d
+USE_HAL_PCCARD_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_PCCARD_REGISTER_CALLBACKS /;"	d
+USE_HAL_PCD_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_PCD_REGISTER_CALLBACKS /;"	d
+USE_HAL_RTC_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_RTC_REGISTER_CALLBACKS /;"	d
+USE_HAL_SD_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_SD_REGISTER_CALLBACKS /;"	d
+USE_HAL_SMARTCARD_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_SMARTCARD_REGISTER_CALLBACKS /;"	d
+USE_HAL_SPI_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_SPI_REGISTER_CALLBACKS /;"	d
+USE_HAL_SRAM_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_SRAM_REGISTER_CALLBACKS /;"	d
+USE_HAL_TIM_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_TIM_REGISTER_CALLBACKS /;"	d
+USE_HAL_UART_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_UART_REGISTER_CALLBACKS /;"	d
+USE_HAL_USART_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_USART_REGISTER_CALLBACKS /;"	d
+USE_HAL_WWDG_REGISTER_CALLBACKS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_HAL_WWDG_REGISTER_CALLBACKS /;"	d
+USE_RTOS	Inc/stm32f1xx_hal_conf.h	/^#define  USE_RTOS /;"	d
+USE_SPI_CRC	Inc/stm32f1xx_hal_conf.h	/^#define USE_SPI_CRC /;"	d
+UsageFault_Handler	Src/stm32f1xx_it.c	/^void UsageFault_Handler(void)$/;"	f	typeref:typename:void
+VDD_VALUE	Inc/stm32f1xx_hal_conf.h	/^#define  VDD_VALUE /;"	d
+VECT_TAB_BASE_ADDRESS	Src/system_stm32f1xx.c	/^#define VECT_TAB_BASE_ADDRESS /;"	d	file:
+VECT_TAB_OFFSET	Src/system_stm32f1xx.c	/^#define VECT_TAB_OFFSET /;"	d	file:
+__MAIN_H	Inc/main.h	/^#define __MAIN_H$/;"	d
+__STM32F1xx_HAL_CONF_H	Inc/stm32f1xx_hal_conf.h	/^#define __STM32F1xx_HAL_CONF_H$/;"	d
+__STM32F1xx_IT_H	Inc/stm32f1xx_it.h	/^#define __STM32F1xx_IT_H$/;"	d
+__env	Src/syscalls.c	/^char *__env[1] = { 0 };$/;"	v	typeref:typename:char * [1]
+__sbrk_heap_end	Src/sysmem.c	/^static uint8_t *__sbrk_heap_end = NULL;$/;"	v	typeref:typename:uint8_t *	file:
+_close	Src/syscalls.c	/^int _close(int file)$/;"	f	typeref:typename:int
+_execve	Src/syscalls.c	/^int _execve(char *name, char **argv, char **env)$/;"	f	typeref:typename:int
+_exit	Src/syscalls.c	/^void _exit (int status)$/;"	f	typeref:typename:void
+_fork	Src/syscalls.c	/^int _fork(void)$/;"	f	typeref:typename:int
+_fstat	Src/syscalls.c	/^int _fstat(int file, struct stat *st)$/;"	f	typeref:typename:int
+_getpid	Src/syscalls.c	/^int _getpid(void)$/;"	f	typeref:typename:int
+_isatty	Src/syscalls.c	/^int _isatty(int file)$/;"	f	typeref:typename:int
+_kill	Src/syscalls.c	/^int _kill(int pid, int sig)$/;"	f	typeref:typename:int
+_link	Src/syscalls.c	/^int _link(char *old, char *new)$/;"	f	typeref:typename:int
+_lseek	Src/syscalls.c	/^int _lseek(int file, int ptr, int dir)$/;"	f	typeref:typename:int
+_nrf24_config_irq_mask_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_config_irq_mask_$/;"	g
+_nrf24_control_mode_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_control_mode_$/;"	g
+_nrf24_crc_encode_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_crc_encode_$/;"	g
+_nrf24_data_rate_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_data_rate_$/;"	g
+_nrf24_dynamic_ACK_mode_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_dynamic_ACK_mode_$/;"	g
+_nrf24_dynamic_pld_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_dynamic_pld_$/;"	g
+_nrf24_dynamic_pld_mode_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_dynamic_pld_mode_$/;"	g
+_nrf24_enable_ptx_prx_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_enable_ptx_prx_$/;"	g
+_nrf24_enable_rx_pipe_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_enable_rx_pipe_$/;"	g
+_nrf24_hal_CE_status	nrf24_hal/nrf24_hal.h	/^typedef enum _nrf24_hal_CE_status$/;"	g
+_nrf24_hal_DEBUG_status	nrf24_hal/nrf24_hal.h	/^typedef enum _nrf24_hal_DEBUG_status$/;"	g
+_nrf24_hal_handler_	nrf24_hal/nrf24_hal.h	/^typedef struct _nrf24_hal_handler_$/;"	s
+_nrf24_hal_spi_status_	nrf24_hal/nrf24_hal.c	/^typedef enum _nrf24_hal_spi_status_$/;"	g	file:
+_nrf24_hal_status_	nrf24_hal/nrf24_hal.h	/^typedef enum _nrf24_hal_status_$/;"	g
+_nrf24_irq_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_irq_$/;"	g
+_nrf24_output_pwr_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_output_pwr_$/;"	g
+_nrf24_pipe_address_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_pipe_address_$/;"	g
+_nrf24_pipe_profile_	nrf24_service/nrf24_service.h	/^typedef struct _nrf24_pipe_profile_$/;"	s
+_nrf24_pwr_ctrl_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_pwr_ctrl_$/;"	g
+_nrf24_receive_pwr_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_receive_pwr_$/;"	g
+_nrf24_retransmit_delay_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_retransmit_delay_$/;"	g
+_nrf24_rx_data_pld_	nrf24_service/nrf24_service.h	/^typedef struct _nrf24_rx_data_pld_$/;"	s
+_nrf24_rxfifo_data_pipe_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_rxfifo_data_pipe_$/;"	g
+_nrf24_rxfifo_status_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_rxfifo_status_$/;"	g
+_nrf24_service_handler_	nrf24_service/nrf24_service.h	/^typedef struct _nrf24_service_handler_$/;"	s
+_nrf24_service_status_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_service_status_$/;"	g
+_nrf24_set_ack_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_set_ack_$/;"	g
+_nrf24_set_addr_width_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_set_addr_width_$/;"	g
+_nrf24_transciver_mode_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_transciver_mode_$/;"	g
+_nrf24_tx_data_pld_	nrf24_service/nrf24_service.h	/^typedef struct _nrf24_tx_data_pld_$/;"	s
+_nrf24_txfifo_status_	nrf24_service/nrf24_service.h	/^typedef enum _nrf24_txfifo_status_$/;"	g
+_open	Src/syscalls.c	/^int _open(char *path, int flags, ...)$/;"	f	typeref:typename:int
+_read	Src/syscalls.c	/^__attribute__((weak)) int _read(int file, char *ptr, int len)$/;"	f	typeref:typename:int
+_sbrk	Src/sysmem.c	/^void *_sbrk(ptrdiff_t incr)$/;"	f	typeref:typename:void *
+_stat	Src/syscalls.c	/^int _stat(char *file, struct stat *st)$/;"	f	typeref:typename:int
+_times	Src/syscalls.c	/^int _times(struct tms *buf)$/;"	f	typeref:typename:int
+_unlink	Src/syscalls.c	/^int _unlink(char *name)$/;"	f	typeref:typename:int
+_wait	Src/syscalls.c	/^int _wait(int *status)$/;"	f	typeref:typename:int
+_write	Src/syscalls.c	/^__attribute__((weak)) int _write(int file, char *ptr, int len)$/;"	f	typeref:typename:int
+addr	nrf24_service/nrf24_service.h	/^  uint8_t addr;$/;"	m	struct:_nrf24_pipe_profile_	typeref:typename:uint8_t
+assert_failed	Src/main.c	/^void assert_failed(uint8_t *file, uint32_t line)$/;"	f	typeref:typename:void
+assert_param	Inc/stm32f1xx_hal_conf.h	/^#define assert_param(/;"	d
+callback_irq	nrf24_hal/nrf24_hal.h	/^    uint8_t (*callback_irq)(void);$/;"	m	struct:_nrf24_hal_handler_	typeref:typename:uint8_t (*)(void)
+callback_timer	nrf24_hal/nrf24_hal.h	/^    uint8_t (*callback_timer)(void);$/;"	m	struct:_nrf24_hal_handler_	typeref:typename:uint8_t (*)(void)
+data_count_ptx	Src/main.c	/^uint16_t data_count_ptx = 0;$/;"	v	typeref:typename:uint16_t
+data_pld	nrf24_service/nrf24_service.h	/^  uint8_t data_pld[32];$/;"	m	struct:_nrf24_rx_data_pld_	typeref:typename:uint8_t[32]
+data_pld	nrf24_service/nrf24_service.h	/^  uint8_t data_pld[32];$/;"	m	struct:_nrf24_tx_data_pld_	typeref:typename:uint8_t[32]
+environ	Src/syscalls.c	/^char **environ = __env;$/;"	v	typeref:typename:char **
+global_rx_pkt	nrf24_service/nrf24_service.c	/^NRF24_RX_PLD global_rx_pkt;$/;"	v	typeref:typename:NRF24_RX_PLD
+hal_handler	nrf24_hal/nrf24_hal.c	/^NRF24_HAL_HANDLER hal_handler;$/;"	v	typeref:typename:NRF24_HAL_HANDLER
+have_ack_pkt	nrf24_service/nrf24_service.h	/^  bool    have_ack_pkt;$/;"	m	struct:_nrf24_tx_data_pld_	typeref:typename:bool
+have_rx_pkt	nrf24_service/nrf24_service.h	/^  bool have_rx_pkt;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:bool
+hspi1	nrf24_hal/nrf24_hal.c	/^SPI_HandleTypeDef hspi1;$/;"	v	typeref:typename:SPI_HandleTypeDef
+htim1	nrf24_hal/nrf24_hal.c	/^TIM_HandleTypeDef htim1;$/;"	v	typeref:typename:TIM_HandleTypeDef
+initialise_monitor_handles	Src/syscalls.c	/^void initialise_monitor_handles()$/;"	f	typeref:typename:void
+is_en	nrf24_service/nrf24_service.h	/^  bool    is_en;$/;"	m	struct:_nrf24_pipe_profile_	typeref:typename:bool
+main	Src/main.c	/^int main(void)$/;"	f	typeref:typename:int
+mode	nrf24_service/nrf24_service.h	/^  NRF24_TRANSCIVER_MODE mode;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:NRF24_TRANSCIVER_MODE
+nRF24_address_regs	nrf24_service/nrf24_service.c	/^static uint8_t nRF24_address_regs[NRF24_MAX_NO_ADDR_PIPE] =$/;"	v	typeref:typename:uint8_t[]	file:
+node_addr	Src/main.c	/^uint8_t node_addr[5] = {0x26, 0x26, 0x26, 0x26, 0x03};$/;"	v	typeref:typename:uint8_t[5]
+nrf24_dev_addr	nrf24_service/nrf24_service.h	/^  uint8_t nrf24_dev_addr[5];$/;"	m	struct:_nrf24_service_handler_	typeref:typename:uint8_t[5]
+nrf24_ser_handler	nrf24_service/nrf24_service.c	/^NRF24_SERVICE_HANDLER nrf24_ser_handler;$/;"	v	typeref:typename:NRF24_SERVICE_HANDLER
+pipe	nrf24_service/nrf24_service.h	/^  NRF24_PIPE_PROFILE pipe[5];$/;"	m	struct:_nrf24_service_handler_	typeref:typename:NRF24_PIPE_PROFILE[5]
+pipe_idx	nrf24_service/nrf24_service.h	/^  uint8_t pipe_idx;$/;"	m	struct:_nrf24_pipe_profile_	typeref:typename:uint8_t
+pipe_idx	nrf24_service/nrf24_service.h	/^  uint8_t pipe_idx;$/;"	m	struct:_nrf24_rx_data_pld_	typeref:typename:uint8_t
+pipe_idx	nrf24_service/nrf24_service.h	/^  uint8_t pipe_idx;$/;"	m	struct:_nrf24_tx_data_pld_	typeref:typename:uint8_t
+pld_size	nrf24_service/nrf24_service.h	/^  uint8_t pld_size;$/;"	m	struct:_nrf24_rx_data_pld_	typeref:typename:uint8_t
+pld_size	nrf24_service/nrf24_service.h	/^  uint8_t pld_size;$/;"	m	struct:_nrf24_tx_data_pld_	typeref:typename:uint8_t
+reset_nrf24_rx_internal_buf	Src/main.c	/^static void reset_nrf24_rx_internal_buf(void)$/;"	f	typeref:typename:void	file:
+rx_data_ready	nrf24_service/nrf24_service.h	/^  bool rx_data_ready;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:bool
+rx_pkt_arr	nrf24_service/nrf24_service.c	/^static NRF24_RX_PLD rx_pkt_arr[NRF24_MAX_PKT_RX_ARRAY];$/;"	v	typeref:typename:NRF24_RX_PLD[]	file:
+transmit_done	nrf24_service/nrf24_service.h	/^  bool transmit_done;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:bool
+transmit_err	nrf24_service/nrf24_service.h	/^  bool transmit_err;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:bool
+tx_pkt_arr	nrf24_service/nrf24_service.c	/^static NRF24_TX_DATA_PLD tx_pkt_arr[NRF24_MAX_PKT_TX_ARRAY];$/;"	v	typeref:typename:NRF24_TX_DATA_PLD[]	file:
+tx_pkt_full	nrf24_service/nrf24_service.h	/^  bool tx_pkt_full;$/;"	m	struct:_nrf24_service_handler_	typeref:typename:bool

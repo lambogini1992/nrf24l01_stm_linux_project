@@ -1,0 +1,747 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+KDIR	Makefile	/^KDIR ?= \/lib\/modules\/`uname -r`\/build$/;"	m
+NRF24L01_ARD_1000US	nrf24l01_reg.h	/^#define NRF24L01_ARD_1000US	/;"	d
+NRF24L01_ARD_1250US	nrf24l01_reg.h	/^#define NRF24L01_ARD_1250US	/;"	d
+NRF24L01_ARD_1500US	nrf24l01_reg.h	/^#define NRF24L01_ARD_1500US	/;"	d
+NRF24L01_ARD_1750US	nrf24l01_reg.h	/^#define NRF24L01_ARD_1750US	/;"	d
+NRF24L01_ARD_2000US	nrf24l01_reg.h	/^#define NRF24L01_ARD_2000US	/;"	d
+NRF24L01_ARD_2250US	nrf24l01_reg.h	/^#define NRF24L01_ARD_2250US	/;"	d
+NRF24L01_ARD_2500US	nrf24l01_reg.h	/^#define NRF24L01_ARD_2500US	/;"	d
+NRF24L01_ARD_250US	nrf24l01_reg.h	/^#define NRF24L01_ARD_250US	/;"	d
+NRF24L01_ARD_2750US	nrf24l01_reg.h	/^#define NRF24L01_ARD_2750US	/;"	d
+NRF24L01_ARD_3000US	nrf24l01_reg.h	/^#define NRF24L01_ARD_3000US	/;"	d
+NRF24L01_ARD_3250US	nrf24l01_reg.h	/^#define NRF24L01_ARD_3250US	/;"	d
+NRF24L01_ARD_3500US	nrf24l01_reg.h	/^#define NRF24L01_ARD_3500US	/;"	d
+NRF24L01_ARD_3750US	nrf24l01_reg.h	/^#define NRF24L01_ARD_3750US	/;"	d
+NRF24L01_ARD_4000US	nrf24l01_reg.h	/^#define NRF24L01_ARD_4000US	/;"	d
+NRF24L01_ARD_500US	nrf24l01_reg.h	/^#define NRF24L01_ARD_500US	/;"	d
+NRF24L01_ARD_750US	nrf24l01_reg.h	/^#define NRF24L01_ARD_750US	/;"	d
+NRF24L01_CE_HI	nrf24l01_functions.h	/^#define NRF24L01_CE_HI(/;"	d
+NRF24L01_CE_HI_	nrf24l01_functions.h	/^#define NRF24L01_CE_HI_(/;"	d
+NRF24L01_CE_LO	nrf24l01_functions.h	/^#define NRF24L01_CE_LO(/;"	d
+NRF24L01_CE_LO_	nrf24l01_functions.h	/^#define NRF24L01_CE_LO_(/;"	d
+NRF24L01_CHRDEV_CLASS	nrf24l01_chrdev.c	/^#define NRF24L01_CHRDEV_CLASS /;"	d	file:
+NRF24L01_CHRDEV_FORMAT	nrf24l01_chrdev.c	/^#define NRF24L01_CHRDEV_FORMAT /;"	d	file:
+NRF24L01_CMD_ACTIVATE	nrf24l01_cmd.h	/^#define NRF24L01_CMD_ACTIVATE	/;"	d
+NRF24L01_CMD_FLUSH_RX	nrf24l01_cmd.h	/^#define NRF24L01_CMD_FLUSH_RX	/;"	d
+NRF24L01_CMD_FLUSH_TX	nrf24l01_cmd.h	/^#define NRF24L01_CMD_FLUSH_TX	/;"	d
+NRF24L01_CMD_NOP	nrf24l01_cmd.h	/^#define NRF24L01_CMD_NOP	/;"	d
+NRF24L01_CMD_REUSE_TX_PL	nrf24l01_cmd.h	/^#define NRF24L01_CMD_REUSE_TX_PL	/;"	d
+NRF24L01_CMD_R_REGISTER	nrf24l01_cmd.h	/^#define NRF24L01_CMD_R_REGISTER	/;"	d
+NRF24L01_CMD_R_RX_PAYLOAD	nrf24l01_cmd.h	/^#define NRF24L01_CMD_R_RX_PAYLOAD	/;"	d
+NRF24L01_CMD_R_RX_PL_WID	nrf24l01_cmd.h	/^#define NRF24L01_CMD_R_RX_PL_WID	/;"	d
+NRF24L01_CMD_W_ACK_PAYLOAD	nrf24l01_cmd.h	/^#define NRF24L01_CMD_W_ACK_PAYLOAD	/;"	d
+NRF24L01_CMD_W_REGISTER	nrf24l01_cmd.h	/^#define NRF24L01_CMD_W_REGISTER	/;"	d
+NRF24L01_CMD_W_TX_PAYLOAD	nrf24l01_cmd.h	/^#define NRF24L01_CMD_W_TX_PAYLOAD	/;"	d
+NRF24L01_CMD_W_TX_PAYLOAD_NO_ACK	nrf24l01_cmd.h	/^#define NRF24L01_CMD_W_TX_PAYLOAD_NO_ACK	/;"	d
+NRF24L01_DR_1M	nrf24l01_reg.h	/^#define NRF24L01_DR_1M	/;"	d
+NRF24L01_DR_250K	nrf24l01_reg.h	/^#define NRF24L01_DR_250K	/;"	d
+NRF24L01_DR_2M	nrf24l01_reg.h	/^#define NRF24L01_DR_2M	/;"	d
+NRF24L01_MASK_ARC	nrf24l01_reg.h	/^#define NRF24L01_MASK_ARC	/;"	d
+NRF24L01_MASK_ARD	nrf24l01_reg.h	/^#define NRF24L01_MASK_ARD	/;"	d
+NRF24L01_MASK_DR	nrf24l01_reg.h	/^#define NRF24L01_MASK_DR	/;"	d
+NRF24L01_MASK_TXPWR	nrf24l01_reg.h	/^#define NRF24L01_MASK_TXPWR	/;"	d
+NRF24L01_MODE_LOW_PWR	nrf24l01_core.h	/^#define NRF24L01_MODE_LOW_PWR	/;"	d
+NRF24L01_MODE_NON_CANON_STANDBY	nrf24l01_core.h	/^#define NRF24L01_MODE_NON_CANON_STANDBY	/;"	d
+NRF24L01_MODE_PWR_DOWN_NOT_STANDBY	nrf24l01_core.h	/^#define NRF24L01_MODE_PWR_DOWN_NOT_STANDBY	/;"	d
+NRF24L01_NUM_PIPES	nrf24l01_core.h	/^#define NRF24L01_NUM_PIPES	/;"	d
+NRF24L01_NUM_REGS	nrf24l01_spi.c	/^#define NRF24L01_NUM_REGS /;"	d	file:
+NRF24L01_PACKET_MAX_LENGTH	nrf24l01_core.h	/^#define NRF24L01_PACKET_MAX_LENGTH	/;"	d
+NRF24L01_REG_CONFIG	nrf24l01_reg.h	/^#define NRF24L01_REG_CONFIG	/;"	d
+NRF24L01_REG_DYNPD	nrf24l01_reg.h	/^#define NRF24L01_REG_DYNPD	/;"	d
+NRF24L01_REG_EN_AA	nrf24l01_reg.h	/^#define NRF24L01_REG_EN_AA	/;"	d
+NRF24L01_REG_EN_RXADDR	nrf24l01_reg.h	/^#define NRF24L01_REG_EN_RXADDR	/;"	d
+NRF24L01_REG_FEATURE	nrf24l01_reg.h	/^#define NRF24L01_REG_FEATURE	/;"	d
+NRF24L01_REG_FIFO_STATUS	nrf24l01_reg.h	/^#define NRF24L01_REG_FIFO_STATUS	/;"	d
+NRF24L01_REG_MASK_CD	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_CD	/;"	d
+NRF24L01_REG_MASK_CONFIG	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_CONFIG	/;"	d
+NRF24L01_REG_MASK_DYNPD	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_DYNPD	/;"	d
+NRF24L01_REG_MASK_EN_AA	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_EN_AA	/;"	d
+NRF24L01_REG_MASK_EN_RXADDR	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_EN_RXADDR	/;"	d
+NRF24L01_REG_MASK_FEATURE	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_FEATURE	/;"	d
+NRF24L01_REG_MASK_FIFO_STATUS	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_FIFO_STATUS	/;"	d
+NRF24L01_REG_MASK_OBSERVE_TX	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_OBSERVE_TX	/;"	d
+NRF24L01_REG_MASK_RF_CH	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RF_CH	/;"	d
+NRF24L01_REG_MASK_RF_SETUP	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RF_SETUP	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_P1	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_P1	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_P2	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_P2	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_P3	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_P3	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_P4	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_P4	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_P5	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_P5	/;"	d
+NRF24L01_REG_MASK_RX_ADDR_PO	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_ADDR_PO	/;"	d
+NRF24L01_REG_MASK_RX_PW_P0	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P0	/;"	d
+NRF24L01_REG_MASK_RX_PW_P1	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P1	/;"	d
+NRF24L01_REG_MASK_RX_PW_P2	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P2	/;"	d
+NRF24L01_REG_MASK_RX_PW_P3	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P3	/;"	d
+NRF24L01_REG_MASK_RX_PW_P4	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P4	/;"	d
+NRF24L01_REG_MASK_RX_PW_P5	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_RX_PW_P5	/;"	d
+NRF24L01_REG_MASK_SETUP_AW	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_SETUP_AW	/;"	d
+NRF24L01_REG_MASK_SETUP_RETR	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_SETUP_RETR	/;"	d
+NRF24L01_REG_MASK_STATUS	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_STATUS	/;"	d
+NRF24L01_REG_MASK_TX_ADDR	nrf24l01_reg.h	/^#define NRF24L01_REG_MASK_TX_ADDR	/;"	d
+NRF24L01_REG_OBSERVE_TX	nrf24l01_reg.h	/^#define NRF24L01_REG_OBSERVE_TX	/;"	d
+NRF24L01_REG_RF_CH	nrf24l01_reg.h	/^#define NRF24L01_REG_RF_CH	/;"	d
+NRF24L01_REG_RF_SETUP	nrf24l01_reg.h	/^#define NRF24L01_REG_RF_SETUP	/;"	d
+NRF24L01_REG_RPD	nrf24l01_reg.h	/^#define NRF24L01_REG_RPD	/;"	d
+NRF24L01_REG_RX_ADDR_P0	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P0	/;"	d
+NRF24L01_REG_RX_ADDR_P1	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P1	/;"	d
+NRF24L01_REG_RX_ADDR_P2	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P2	/;"	d
+NRF24L01_REG_RX_ADDR_P3	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P3	/;"	d
+NRF24L01_REG_RX_ADDR_P4	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P4	/;"	d
+NRF24L01_REG_RX_ADDR_P5	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_ADDR_P5	/;"	d
+NRF24L01_REG_RX_PW_P0	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P0	/;"	d
+NRF24L01_REG_RX_PW_P1	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P1	/;"	d
+NRF24L01_REG_RX_PW_P2	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P2	/;"	d
+NRF24L01_REG_RX_PW_P3	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P3	/;"	d
+NRF24L01_REG_RX_PW_P4	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P4	/;"	d
+NRF24L01_REG_RX_PW_P5	nrf24l01_reg.h	/^#define NRF24L01_REG_RX_PW_P5	/;"	d
+NRF24L01_REG_SETUP_AW	nrf24l01_reg.h	/^#define NRF24L01_REG_SETUP_AW	/;"	d
+NRF24L01_REG_SETUP_RETR	nrf24l01_reg.h	/^#define NRF24L01_REG_SETUP_RETR	/;"	d
+NRF24L01_REG_STATUS	nrf24l01_reg.h	/^#define NRF24L01_REG_STATUS	/;"	d
+NRF24L01_REG_TX_ADDR	nrf24l01_reg.h	/^#define NRF24L01_REG_TX_ADDR	/;"	d
+NRF24L01_RX_P_NO_EMPTY	nrf24l01_reg.h	/^#define NRF24L01_RX_P_NO_EMPTY	/;"	d
+NRF24L01_TXPWR_0DBM	nrf24l01_reg.h	/^#define NRF24L01_TXPWR_0DBM	/;"	d
+NRF24L01_TXPWR_M12DBM	nrf24l01_reg.h	/^#define NRF24L01_TXPWR_M12DBM	/;"	d
+NRF24L01_TXPWR_M18DBM	nrf24l01_reg.h	/^#define NRF24L01_TXPWR_M18DBM	/;"	d
+NRF24L01_TXPWR_M6DBM	nrf24l01_reg.h	/^#define NRF24L01_TXPWR_M6DBM	/;"	d
+NRF24L01_VREG_CONFIG_CRCO	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_CRCO	/;"	d
+NRF24L01_VREG_CONFIG_EN_CRC	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_EN_CRC	/;"	d
+NRF24L01_VREG_CONFIG_MASK_MAX_RT	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_MASK_MAX_RT	/;"	d
+NRF24L01_VREG_CONFIG_MASK_RX_DR	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_MASK_RX_DR	/;"	d
+NRF24L01_VREG_CONFIG_MASK_TX_DS	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_MASK_TX_DS	/;"	d
+NRF24L01_VREG_CONFIG_PRIM_RX	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_PRIM_RX	/;"	d
+NRF24L01_VREG_CONFIG_PWR_UP	nrf24l01_reg.h	/^#define NRF24L01_VREG_CONFIG_PWR_UP	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P0	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P0	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P1	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P1	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P2	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P2	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P3	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P3	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P4	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P4	/;"	d
+NRF24L01_VREG_DYNPD_DPL_P5	nrf24l01_reg.h	/^#define NRF24L01_VREG_DYNPD_DPL_P5	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P0	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P0	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P1	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P1	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P2	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P2	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P3	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P3	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P4	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P4	/;"	d
+NRF24L01_VREG_EN_AA_ENAA_P5	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_AA_ENAA_P5	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P0	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P0	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P1	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P1	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P2	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P2	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P3	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P3	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P4	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P4	/;"	d
+NRF24L01_VREG_EN_RXADDR_ERX_P5	nrf24l01_reg.h	/^#define NRF24L01_VREG_EN_RXADDR_ERX_P5	/;"	d
+NRF24L01_VREG_FEATURE_EN_ACK_PAY	nrf24l01_reg.h	/^#define NRF24L01_VREG_FEATURE_EN_ACK_PAY	/;"	d
+NRF24L01_VREG_FEATURE_EN_DPL	nrf24l01_reg.h	/^#define NRF24L01_VREG_FEATURE_EN_DPL	/;"	d
+NRF24L01_VREG_FEATURE_EN_DYN_ACK	nrf24l01_reg.h	/^#define NRF24L01_VREG_FEATURE_EN_DYN_ACK	/;"	d
+NRF24L01_VREG_FIFO_STATUS_RX_EMPTY	nrf24l01_reg.h	/^#define NRF24L01_VREG_FIFO_STATUS_RX_EMPTY	/;"	d
+NRF24L01_VREG_FIFO_STATUS_RX_FULL	nrf24l01_reg.h	/^#define NRF24L01_VREG_FIFO_STATUS_RX_FULL	/;"	d
+NRF24L01_VREG_FIFO_STATUS_TX_EMPTY	nrf24l01_reg.h	/^#define NRF24L01_VREG_FIFO_STATUS_TX_EMPTY	/;"	d
+NRF24L01_VREG_FIFO_STATUS_TX_FULL	nrf24l01_reg.h	/^#define NRF24L01_VREG_FIFO_STATUS_TX_FULL	/;"	d
+NRF24L01_VREG_FIFO_STATUS_TX_REUSE	nrf24l01_reg.h	/^#define NRF24L01_VREG_FIFO_STATUS_TX_REUSE	/;"	d
+NRF24L01_VREG_OBSERVE_TX_ARC_CNT	nrf24l01_reg.h	/^#define	NRF24L01_VREG_OBSERVE_TX_ARC_CNT	/;"	d
+NRF24L01_VREG_OBSERVE_TX_PLOS_CNT	nrf24l01_reg.h	/^#define	NRF24L01_VREG_OBSERVE_TX_PLOS_CNT	/;"	d
+NRF24L01_VREG_RF_CH_RF_CH	nrf24l01_reg.h	/^#define NRF24L01_VREG_RF_CH_RF_CH	/;"	d
+NRF24L01_VREG_RF_SETUP_CONT_WAVE	nrf24l01_reg.h	/^#define	NRF24L01_VREG_RF_SETUP_CONT_WAVE	/;"	d
+NRF24L01_VREG_RF_SETUP_PLL_LOCK	nrf24l01_reg.h	/^#define	NRF24L01_VREG_RF_SETUP_PLL_LOCK	/;"	d
+NRF24L01_VREG_RF_SETUP_RF_DR	nrf24l01_reg.h	/^#define	NRF24L01_VREG_RF_SETUP_RF_DR	/;"	d
+NRF24L01_VREG_RF_SETUP_RF_PWR	nrf24l01_reg.h	/^#define	NRF24L01_VREG_RF_SETUP_RF_PWR	/;"	d
+NRF24L01_VREG_RPD_RPD	nrf24l01_reg.h	/^#define	NRF24L01_VREG_RPD_RPD	/;"	d
+NRF24L01_VREG_RX_ADDR_P0	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P0	/;"	d
+NRF24L01_VREG_RX_ADDR_P1	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P1	/;"	d
+NRF24L01_VREG_RX_ADDR_P2	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P2	/;"	d
+NRF24L01_VREG_RX_ADDR_P3	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P3	/;"	d
+NRF24L01_VREG_RX_ADDR_P4	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P4	/;"	d
+NRF24L01_VREG_RX_ADDR_P5	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_ADDR_P5	/;"	d
+NRF24L01_VREG_RX_PW_P0	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P0	/;"	d
+NRF24L01_VREG_RX_PW_P1	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P1	/;"	d
+NRF24L01_VREG_RX_PW_P2	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P2	/;"	d
+NRF24L01_VREG_RX_PW_P3	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P3	/;"	d
+NRF24L01_VREG_RX_PW_P4	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P4	/;"	d
+NRF24L01_VREG_RX_PW_P5	nrf24l01_reg.h	/^#define NRF24L01_VREG_RX_PW_P5	/;"	d
+NRF24L01_VREG_SETUP_AW_AW	nrf24l01_reg.h	/^#define NRF24L01_VREG_SETUP_AW_AW	/;"	d
+NRF24L01_VREG_SETUP_RETR_ARC	nrf24l01_reg.h	/^#define NRF24L01_VREG_SETUP_RETR_ARC	/;"	d
+NRF24L01_VREG_SETUP_RETR_ARD	nrf24l01_reg.h	/^#define NRF24L01_VREG_SETUP_RETR_ARD	/;"	d
+NRF24L01_VREG_STATUS_MAX_RT	nrf24l01_reg.h	/^#define	NRF24L01_VREG_STATUS_MAX_RT	/;"	d
+NRF24L01_VREG_STATUS_RX_DR	nrf24l01_reg.h	/^#define	NRF24L01_VREG_STATUS_RX_DR	/;"	d
+NRF24L01_VREG_STATUS_RX_P_NO	nrf24l01_reg.h	/^#define	NRF24L01_VREG_STATUS_RX_P_NO	/;"	d
+NRF24L01_VREG_STATUS_TX_DS	nrf24l01_reg.h	/^#define	NRF24L01_VREG_STATUS_TX_DS	/;"	d
+NRF24L01_VREG_STATUS_TX_FULL	nrf24l01_reg.h	/^#define	NRF24L01_VREG_STATUS_TX_FULL	/;"	d
+NRF24L01_VREG_TRIES	nrf24l01_functions.h	/^#define NRF24L01_VREG_TRIES /;"	d
+NRF24L01_VREG_TX_ADDR	nrf24l01_reg.h	/^#define NRF24L01_VREG_TX_ADDR	/;"	d
+_LINUX_PARTREGMAP_H_	partregmap.h	/^#define _LINUX_PARTREGMAP_H_$/;"	d
+_NRF24L01_CHRDEV_H_	nrf24l01_chrdev.h	/^#define _NRF24L01_CHRDEV_H_$/;"	d
+_NRF24L01_CMD_H_	nrf24l01_cmd.h	/^#define _NRF24L01_CMD_H_$/;"	d
+_NRF24L01_CORE_H_	nrf24l01_core.h	/^#define _NRF24L01_CORE_H_$/;"	d
+_NRF24L01_FUNCTIONS_H_	nrf24l01_functions.h	/^#define _NRF24L01_FUNCTIONS_H_$/;"	d
+_NRF24L01_QUIRKS_H_	nrf24l01_quirks.h	/^#define _NRF24L01_QUIRKS_H_$/;"	d
+_NRF24L01_REG_H_	nrf24l01_reg.h	/^#define _NRF24L01_REG_H_$/;"	d
+_NRF24L01_SPI_H_	nrf24l01_spi.h	/^#define _NRF24L01_SPI_H_$/;"	d
+_NRF24L01_SYSFS_H_	nrf24l01_sysfs.h	/^#define _NRF24L01_SYSFS_H_$/;"	d
+_NRF24L01_UTIL_H_	nrf24l01_util.h	/^#define _NRF24L01_UTIL_H_$/;"	d
+_NRF24L01_WORKER_H_	nrf24l01_worker.h	/^#define _NRF24L01_WORKER_H_$/;"	d
+__anonaef31ebc0108	nrf24l01_core.h	/^	struct {$/;"	s	struct:nrf24l01_t
+addr_be	nrf24l01_core.h	/^		unsigned int addr_be : 1;$/;"	m	struct:nrf24l01_t::__anonaef31ebc0108	typeref:typename:unsigned int:1
+attr_general	nrf24l01_chrdev.c	/^static struct attribute* attr_general[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe0	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe0[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe0_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe0_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe0_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe0_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe0_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe0_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe0_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe0_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe0_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe0_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe1	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe1[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe1_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe1_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe1_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe1_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe1_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe1_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe1_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe1_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe1_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe1_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe2	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe2[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe2_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe2_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe2_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe2_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe2_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe2_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe2_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe2_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe2_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe2_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe3	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe3[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe3_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe3_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe3_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe3_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe3_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe3_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe3_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe3_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe3_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe3_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe4	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe4[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe4_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe4_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe4_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe4_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe4_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe4_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe4_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe4_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe4_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe4_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe5	nrf24l01_chrdev.c	/^static struct attribute* attr_pipe5[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_pipe5_addr	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe5_addr = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe5_dpl	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe5_dpl = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe5_enaa	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe5_enaa = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe5_pw	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe5_pw = {$/;"	v	typeref:struct:device_attribute	file:
+attr_pipe5_state	nrf24l01_chrdev.c	/^static struct device_attribute attr_pipe5_state = {$/;"	v	typeref:struct:device_attribute	file:
+attr_retr	nrf24l01_chrdev.c	/^static struct attribute* attr_retr[] = {$/;"	v	typeref:struct:attribute * []	file:
+attr_rf	nrf24l01_chrdev.c	/^static struct attribute* attr_rf[] = {$/;"	v	typeref:struct:attribute * []	file:
+attribute_groups	nrf24l01_chrdev.c	/^static const struct attribute_group* attribute_groups[] = {$/;"	v	typeref:typename:const struct attribute_group * []	file:
+auto_ack	nrf24l01_core.h	/^		unsigned int auto_ack : 1;$/;"	m	struct:nrf24l01_t::__anonaef31ebc0108	typeref:typename:unsigned int:1
+cdev	nrf24l01_chrdev.h	/^	struct cdev			cdev;$/;"	m	struct:nrf24l01_chrdev	typeref:struct:cdev
+chrdev	nrf24l01_chrdev.h	/^	struct nrf24l01_chrdev* chrdev;$/;"	m	struct:nrf24l01_chrdev_session	typeref:struct:nrf24l01_chrdev *
+chrdev	nrf24l01_core.h	/^	struct nrf24l01_chrdev	chrdev;$/;"	m	struct:nrf24l01_t	typeref:struct:nrf24l01_chrdev
+chrdev_alloc	nrf24l01_chrdev.c	/^int chrdev_alloc(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+chrdev_class	nrf24l01_chrdev.c	/^static struct class* chrdev_class = NULL;$/;"	v	typeref:struct:class *	file:
+chrdev_free	nrf24l01_chrdev.c	/^void chrdev_free(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:void
+ctx	partregmap.h	/^	void* ctx;$/;"	m	struct:partreg	typeref:typename:void *
+default	Makefile	/^default:$/;"	t
+dev	nrf24l01_chrdev.h	/^	struct device*		dev;$/;"	m	struct:nrf24l01_chrdev	typeref:struct:device *
+dev_open	nrf24l01_chrdev.c	/^static int dev_open(struct inode* inodep, struct file *filep)$/;"	f	typeref:typename:int	file:
+dev_read	nrf24l01_chrdev.c	/^static ssize_t dev_read(struct file *filep, char *buffer, size_t len, loff_t *offset)$/;"	f	typeref:typename:ssize_t	file:
+dev_release	nrf24l01_chrdev.c	/^static int dev_release(struct inode *inodep, struct file *filep)$/;"	f	typeref:typename:int	file:
+dev_write	nrf24l01_chrdev.c	/^static ssize_t dev_write(struct file *filep, const char *buffer, size_t len, loff_t *offset)$/;"	f	typeref:typename:ssize_t	file:
+devt	nrf24l01_chrdev.h	/^	dev_t				devt;	$/;"	m	struct:nrf24l01_chrdev	typeref:typename:dev_t
+exit_queue	nrf24l01_chrdev.h	/^	wait_queue_head_t	exit_queue;$/;"	m	struct:nrf24l01_chrdev	typeref:typename:wait_queue_head_t
+flags	nrf24l01_core.h	/^	} flags;$/;"	m	struct:nrf24l01_t	typeref:struct:nrf24l01_t::__anonaef31ebc0108
+fops	nrf24l01_chrdev.c	/^static struct file_operations fops =$/;"	v	typeref:struct:file_operations	file:
+gpio_ce	nrf24l01_core.h	/^	unsigned				gpio_ce;$/;"	m	struct:nrf24l01_t	typeref:typename:unsigned
+group_general	nrf24l01_chrdev.c	/^static struct attribute_group group_general = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe0	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe0 = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe1	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe1 = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe2	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe2 = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe3	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe3 = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe4	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe4 = {$/;"	v	typeref:struct:attribute_group	file:
+group_pipe5	nrf24l01_chrdev.c	/^static struct attribute_group group_pipe5 = {$/;"	v	typeref:struct:attribute_group	file:
+group_retr	nrf24l01_chrdev.c	/^static struct attribute_group group_retr = {$/;"	v	typeref:struct:attribute_group	file:
+group_rf	nrf24l01_chrdev.c	/^static struct attribute_group group_rf = {$/;"	v	typeref:struct:attribute_group	file:
+id	nrf24l01_core.h	/^	unsigned int			id;$/;"	m	struct:nrf24l01_t	typeref:typename:unsigned int
+len	partregmap.h	/^	unsigned int len;$/;"	m	struct:partreg	typeref:typename:unsigned int
+len	partregmap.h	/^	unsigned int len;$/;"	m	struct:partreg_template	typeref:typename:unsigned int
+len_func	partregmap.h	/^	int (* len_func)(void* ctx, struct partreg* reg, unsigned int* len);$/;"	m	struct:partreg	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * len)
+len_func	partregmap.h	/^	int (* len_func)(void* ctx, struct partreg* reg, unsigned int* len);$/;"	m	struct:partreg_template	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * len)
+list	nrf24l01_core.h	/^	struct list_head		list;$/;"	m	struct:nrf24l01_t	typeref:struct:list_head
+m_rx_path	nrf24l01_core.h	/^	struct mutex			m_rx_path;$/;"	m	struct:nrf24l01_t	typeref:struct:mutex
+m_session	nrf24l01_chrdev.h	/^	struct mutex		m_session;$/;"	m	struct:nrf24l01_chrdev	typeref:struct:mutex
+m_state	nrf24l01_core.h	/^	struct mutex			m_state;$/;"	m	struct:nrf24l01_t	typeref:struct:mutex
+m_tx_path	nrf24l01_core.h	/^	struct mutex			m_tx_path;$/;"	m	struct:nrf24l01_t	typeref:struct:mutex
+mask	partregmap.h	/^	unsigned int* mask;$/;"	m	struct:partreg	typeref:typename:unsigned int *
+mask	partregmap.h	/^	unsigned int* mask;$/;"	m	struct:partreg_template	typeref:typename:unsigned int *
+mask_config_crco	nrf24l01_reg.c	/^static unsigned int mask_config_crco = 0b100;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_en_crc	nrf24l01_reg.c	/^static unsigned int mask_config_en_crc = 0b1000;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_mask_max_rt	nrf24l01_reg.c	/^static unsigned int mask_config_mask_max_rt = 0b10000;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_mask_rx_dr	nrf24l01_reg.c	/^static unsigned int mask_config_mask_rx_dr = 0b1000000;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_mask_tx_ds	nrf24l01_reg.c	/^static unsigned int mask_config_mask_tx_ds = 0b100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_prim_rx	nrf24l01_reg.c	/^static unsigned int mask_config_prim_rx = 0b1;$/;"	v	typeref:typename:unsigned int	file:
+mask_config_pwr_up	nrf24l01_reg.c	/^static unsigned int mask_config_pwr_up = 0b10;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p0	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p0 = 0b00000001;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p1	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p1 = 0b00000010;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p2	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p2 = 0b00000100;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p3	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p3 = 0b00001000;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p4	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p4 = 0b00010000;$/;"	v	typeref:typename:unsigned int	file:
+mask_dynpd_dpl_p5	nrf24l01_reg.c	/^static unsigned int mask_dynpd_dpl_p5 = 0b00100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p0	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p0 = 0b1;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p1	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p1 = 0b10;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p2	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p2 = 0b100;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p3	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p3 = 0b1000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p4	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p4 = 0b10000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_aa_enaa_p5	nrf24l01_reg.c	/^static unsigned int mask_en_aa_enaa_p5 = 0b100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p0	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p0 = 0b1;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p1	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p1 = 0b10;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p2	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p2 = 0b100;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p3	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p3 = 0b1000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p4	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p4 = 0b10000;$/;"	v	typeref:typename:unsigned int	file:
+mask_en_rxaddr_erx_p5	nrf24l01_reg.c	/^static unsigned int mask_en_rxaddr_erx_p5 = 0b100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_feature_en_ack_pay	nrf24l01_reg.c	/^static unsigned int mask_feature_en_ack_pay = 0b00000010;$/;"	v	typeref:typename:unsigned int	file:
+mask_feature_en_dpl	nrf24l01_reg.c	/^static unsigned int mask_feature_en_dpl = 0b00000100;$/;"	v	typeref:typename:unsigned int	file:
+mask_feature_en_dyn_ack	nrf24l01_reg.c	/^static unsigned int mask_feature_en_dyn_ack = 0b00000001;$/;"	v	typeref:typename:unsigned int	file:
+mask_fifo_status_rx_empty	nrf24l01_reg.c	/^static unsigned int mask_fifo_status_rx_empty = 0b00000001;$/;"	v	typeref:typename:unsigned int	file:
+mask_fifo_status_rx_full	nrf24l01_reg.c	/^static unsigned int mask_fifo_status_rx_full = 0b00000010;$/;"	v	typeref:typename:unsigned int	file:
+mask_fifo_status_tx_empty	nrf24l01_reg.c	/^static unsigned int mask_fifo_status_tx_empty = 0b00010000;$/;"	v	typeref:typename:unsigned int	file:
+mask_fifo_status_tx_full	nrf24l01_reg.c	/^static unsigned int mask_fifo_status_tx_full = 0b00100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_fifo_status_tx_reuse	nrf24l01_reg.c	/^static unsigned int mask_fifo_status_tx_reuse = 0b01000000;$/;"	v	typeref:typename:unsigned int	file:
+mask_observe_tx_arc_cnt	nrf24l01_reg.c	/^static unsigned int mask_observe_tx_arc_cnt = 0b00001111;$/;"	v	typeref:typename:unsigned int	file:
+mask_observe_tx_plos_cnt	nrf24l01_reg.c	/^static unsigned int mask_observe_tx_plos_cnt = 0b11110000;$/;"	v	typeref:typename:unsigned int	file:
+mask_rf_ch_rf_ch	nrf24l01_reg.c	/^static unsigned int mask_rf_ch_rf_ch = 0b01111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rf_setup_cont_wave	nrf24l01_reg.c	/^static unsigned int mask_rf_setup_cont_wave = 0b10000000;$/;"	v	typeref:typename:unsigned int	file:
+mask_rf_setup_pll_lock	nrf24l01_reg.c	/^static unsigned int mask_rf_setup_pll_lock = 0b10000;$/;"	v	typeref:typename:unsigned int	file:
+mask_rf_setup_rf_dr	nrf24l01_reg.c	/^static unsigned int mask_rf_setup_rf_dr = 0b101000;$/;"	v	typeref:typename:unsigned int	file:
+mask_rf_setup_rf_pwr	nrf24l01_reg.c	/^static unsigned int mask_rf_setup_rf_pwr = 0b110;$/;"	v	typeref:typename:unsigned int	file:
+mask_rpd_rpd	nrf24l01_reg.c	/^static unsigned int mask_rpd_rpd = 0b11110000;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p0	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p0 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p1	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p1 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p2	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p2 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p3	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p3 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p4	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p4 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_rx_pw_p5	nrf24l01_reg.c	/^static unsigned int mask_rx_pw_p5 = 0b00111111;$/;"	v	typeref:typename:unsigned int	file:
+mask_setup_aw_aw	nrf24l01_reg.c	/^static unsigned int mask_setup_aw_aw = 0b11;$/;"	v	typeref:typename:unsigned int	file:
+mask_setup_retr_arc	nrf24l01_reg.c	/^static unsigned int mask_setup_retr_arc = 0b1111;$/;"	v	typeref:typename:unsigned int	file:
+mask_setup_retr_ard	nrf24l01_reg.c	/^static unsigned int mask_setup_retr_ard = 0b11110000;$/;"	v	typeref:typename:unsigned int	file:
+mask_status_max_rt	nrf24l01_reg.c	/^static unsigned int mask_status_max_rt = 0b10000;$/;"	v	typeref:typename:unsigned int	file:
+mask_status_rx_dr	nrf24l01_reg.c	/^static unsigned int mask_status_rx_dr = 0b1000000;$/;"	v	typeref:typename:unsigned int	file:
+mask_status_rx_p_no	nrf24l01_reg.c	/^static unsigned int mask_status_rx_p_no = 0b1110;$/;"	v	typeref:typename:unsigned int	file:
+mask_status_tx_ds	nrf24l01_reg.c	/^static unsigned int mask_status_tx_ds = 0b100000;$/;"	v	typeref:typename:unsigned int	file:
+mask_status_tx_full	nrf24l01_reg.c	/^static unsigned int mask_status_tx_full = 0b1;$/;"	v	typeref:typename:unsigned int	file:
+max_value	partregmap.h	/^	unsigned int max_value;$/;"	m	struct:partreg_range	typeref:typename:unsigned int
+min_value	partregmap.h	/^	unsigned int min_value;$/;"	m	struct:partreg_range	typeref:typename:unsigned int
+mode_flags	nrf24l01_core.h	/^	unsigned int			mode_flags;$/;"	m	struct:nrf24l01_t	typeref:typename:unsigned int
+nRF24L01	nrf24l01_core.c	/^enum nrf24l01_modules {nRF24L01, nRF24L01p};$/;"	e	enum:nrf24l01_modules	file:
+nRF24L01p	nrf24l01_core.c	/^enum nrf24l01_modules {nRF24L01, nRF24L01p};$/;"	e	enum:nrf24l01_modules	file:
+n_ranges	partregmap.h	/^	unsigned int n_ranges;$/;"	m	struct:partreg_range_table	typeref:typename:unsigned int
+n_regs	partregmap.h	/^	unsigned int n_regs;$/;"	m	struct:partreg_layout	typeref:typename:unsigned int
+n_regs	partregmap.h	/^	unsigned int n_regs;$/;"	m	struct:partreg_table	typeref:typename:unsigned int
+name	partregmap.h	/^	char* name;$/;"	m	struct:partreg	typeref:typename:char *
+name	partregmap.h	/^	char* name;$/;"	m	struct:partreg_template	typeref:typename:char *
+nrf	nrf24l01_chrdev.h	/^	struct nrf24l01_t*	nrf;$/;"	m	struct:nrf24l01_chrdev	typeref:struct:nrf24l01_t *
+nrf24l01_addr_host_to_addr_nrf	nrf24l01_util.c	/^u64 nrf24l01_addr_host_to_addr_nrf(struct nrf24l01_t* nrf, u64 addr, unsigned int addr_width)$/;"	f	typeref:typename:u64
+nrf24l01_addr_nrf_to_addr_host	nrf24l01_util.c	/^u64 nrf24l01_addr_nrf_to_addr_host(struct nrf24l01_t* nrf, u64 addr, unsigned int addr_width)$/;"	f	typeref:typename:u64
+nrf24l01_chrdev	nrf24l01_chrdev.h	/^typedef struct nrf24l01_chrdev {$/;"	s
+nrf24l01_chrdev	nrf24l01_chrdev.h	/^} nrf24l01_chrdev;$/;"	t	typeref:struct:nrf24l01_chrdev
+nrf24l01_chrdev_session	nrf24l01_chrdev.h	/^typedef struct nrf24l01_chrdev_session {$/;"	s
+nrf24l01_chrdev_session	nrf24l01_chrdev.h	/^} nrf24l01_chrdev_session;$/;"	t	typeref:struct:nrf24l01_chrdev_session
+nrf24l01_create_partregs	nrf24l01_reg.c	/^int nrf24l01_create_partregs(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_create_worker	nrf24l01_worker.c	/^int nrf24l01_create_worker(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_destroy_worker	nrf24l01_worker.c	/^int nrf24l01_destroy_worker(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_driver	nrf24l01_core.c	/^static struct spi_driver nrf24l01_driver = {$/;"	v	typeref:struct:spi_driver	file:
+nrf24l01_flush	nrf24l01_functions.c	/^int nrf24l01_flush(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_flush_rx	nrf24l01_functions.c	/^int nrf24l01_flush_rx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_flush_rx_	nrf24l01_functions.c	/^static int nrf24l01_flush_rx_(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int	file:
+nrf24l01_flush_tx	nrf24l01_functions.c	/^int nrf24l01_flush_tx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_flush_tx_	nrf24l01_functions.c	/^static int nrf24l01_flush_tx_(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int	file:
+nrf24l01_free_partregs	nrf24l01_reg.c	/^void nrf24l01_free_partregs(nrf24l01_t* nrf)$/;"	f	typeref:typename:void
+nrf24l01_get_address_u64	nrf24l01_functions.c	/^int nrf24l01_get_address_u64(struct nrf24l01_t* nrf, u64* addr, unsigned int pipe)$/;"	f	typeref:typename:int
+nrf24l01_get_address_width	nrf24l01_functions.c	/^int nrf24l01_get_address_width(struct nrf24l01_t* nrf, unsigned int* width)$/;"	f	typeref:typename:int
+nrf24l01_get_address_width_pipe	nrf24l01_functions.c	/^int nrf24l01_get_address_width_pipe(struct nrf24l01_t* nrf, unsigned int* width, unsigned int pi/;"	f	typeref:typename:int
+nrf24l01_get_ce	nrf24l01_functions.c	/^int nrf24l01_get_ce(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_ce_	nrf24l01_functions.c	/^int nrf24l01_get_ce_(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_channel	nrf24l01_functions.c	/^int nrf24l01_get_channel(struct nrf24l01_t* nrf, unsigned int* ch)$/;"	f	typeref:typename:int
+nrf24l01_get_crc	nrf24l01_functions.c	/^int nrf24l01_get_crc(struct nrf24l01_t* nrf, unsigned int* crc)$/;"	f	typeref:typename:int
+nrf24l01_get_dr	nrf24l01_functions.c	/^int nrf24l01_get_dr(struct nrf24l01_t* nrf, unsigned int* dr)$/;"	f	typeref:typename:int
+nrf24l01_get_dyn_pld_width	nrf24l01_functions.c	/^int nrf24l01_get_dyn_pld_width(struct nrf24l01_t* nrf, unsigned int* width)$/;"	f	typeref:typename:int
+nrf24l01_get_dynpd	nrf24l01_functions.c	/^int nrf24l01_get_dynpd(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_en_rxaddr	nrf24l01_functions.c	/^int nrf24l01_get_en_rxaddr(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_enaa	nrf24l01_functions.c	/^int nrf24l01_get_enaa(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int* autoack)$/;"	f	typeref:typename:int
+nrf24l01_get_feature_dynpd	nrf24l01_functions.c	/^static int nrf24l01_get_feature_dynpd(struct nrf24l01_t* nrf, unsigned int* state)$/;"	f	typeref:typename:int	file:
+nrf24l01_get_fifo_rx_empty	nrf24l01_functions.c	/^int nrf24l01_get_fifo_rx_empty(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_fifo_rx_full	nrf24l01_functions.c	/^int nrf24l01_get_fifo_rx_full(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_fifo_tx_empty	nrf24l01_functions.c	/^int nrf24l01_get_fifo_tx_empty(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_fifo_tx_full	nrf24l01_functions.c	/^int nrf24l01_get_fifo_tx_full(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_free_id	nrf24l01_core.c	/^static int nrf24l01_get_free_id(struct list_head* nrf_list, unsigned int* id)$/;"	f	typeref:typename:int	file:
+nrf24l01_get_mode	nrf24l01_functions.c	/^int nrf24l01_get_mode(struct nrf24l01_t* nrf, unsigned int mode)$/;"	f	typeref:typename:int
+nrf24l01_get_mode_low_pwr	nrf24l01_functions.c	/^int nrf24l01_get_mode_low_pwr(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_mode_non_canon_standby	nrf24l01_functions.c	/^int nrf24l01_get_mode_non_canon_standby(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_mode_pwr_down_not_standby	nrf24l01_functions.c	/^int nrf24l01_get_mode_pwr_down_not_standby(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_pipe_pld_width	nrf24l01_functions.c	/^int nrf24l01_get_pipe_pld_width(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int* width)$/;"	f	typeref:typename:int
+nrf24l01_get_prim_rx	nrf24l01_functions.c	/^int nrf24l01_get_prim_rx(struct nrf24l01_t* nrf, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_prim_rx_	nrf24l01_functions.c	/^int nrf24l01_get_prim_rx_(struct nrf24l01_t* nrf, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_pwr_up	nrf24l01_functions.c	/^int nrf24l01_get_pwr_up(struct nrf24l01_t* nrf, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_pwr_up_	nrf24l01_functions.c	/^int nrf24l01_get_pwr_up_(struct nrf24l01_t* nrf, unsigned int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_retr_arc	nrf24l01_functions.c	/^int nrf24l01_get_retr_arc(struct nrf24l01_t* nrf, unsigned int* arc)$/;"	f	typeref:typename:int
+nrf24l01_get_retr_ard	nrf24l01_functions.c	/^int nrf24l01_get_retr_ard(struct nrf24l01_t* nrf, unsigned int* ard)$/;"	f	typeref:typename:int
+nrf24l01_get_rx_addr	nrf24l01_functions.c	/^int nrf24l01_get_rx_addr(struct nrf24l01_t* nrf, unsigned int pipe, unsigned char* addr, unsigne/;"	f	typeref:typename:int
+nrf24l01_get_rx_p_no_or_fail	nrf24l01_functions.c	/^int nrf24l01_get_rx_p_no_or_fail(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_rxtx	nrf24l01_functions.c	/^int nrf24l01_get_rxtx(struct nrf24l01_t* nrf, int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_rxtx_	nrf24l01_functions.c	/^int nrf24l01_get_rxtx_(struct nrf24l01_t* nrf, int* state)$/;"	f	typeref:typename:int
+nrf24l01_get_status_max_rt	nrf24l01_functions.c	/^int nrf24l01_get_status_max_rt(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_status_rx_dr	nrf24l01_functions.c	/^int nrf24l01_get_status_rx_dr(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_status_rx_p_no	nrf24l01_functions.c	/^int nrf24l01_get_status_rx_p_no(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_status_tx_ds	nrf24l01_functions.c	/^int nrf24l01_get_status_tx_ds(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_status_tx_full	nrf24l01_functions.c	/^int nrf24l01_get_status_tx_full(struct nrf24l01_t* nrf, unsigned int* status)$/;"	f	typeref:typename:int
+nrf24l01_get_tx_addr	nrf24l01_functions.c	/^int nrf24l01_get_tx_addr(struct nrf24l01_t* nrf, unsigned char* addr, unsigned int len)$/;"	f	typeref:typename:int
+nrf24l01_get_tx_address_u64	nrf24l01_functions.c	/^int nrf24l01_get_tx_address_u64(struct nrf24l01_t* nrf, u64* addr)$/;"	f	typeref:typename:int
+nrf24l01_get_tx_full_or_fail	nrf24l01_functions.c	/^int nrf24l01_get_tx_full_or_fail(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_get_tx_power	nrf24l01_functions.c	/^int nrf24l01_get_tx_power(struct nrf24l01_t* nrf, int* tx_pwr)$/;"	f	typeref:typename:int
+nrf24l01_get_vreg_or_fail_short	nrf24l01_functions.c	/^int nrf24l01_get_vreg_or_fail_short(struct nrf24l01_t* nrf, int vreg, int ntries)$/;"	f	typeref:typename:int
+nrf24l01_ids	nrf24l01_core.c	/^static const struct spi_device_id nrf24l01_ids[] = {$/;"	v	typeref:typename:const struct spi_device_id[]	file:
+nrf24l01_irq	nrf24l01_core.c	/^static irqreturn_t nrf24l01_irq(int irq, void* data)$/;"	f	typeref:typename:irqreturn_t	file:
+nrf24l01_modules	nrf24l01_core.c	/^enum nrf24l01_modules {nRF24L01, nRF24L01p};$/;"	g	file:
+nrf24l01_nrf_registered	nrf24l01_core.c	/^bool nrf24l01_nrf_registered()$/;"	f	typeref:typename:bool
+nrf24l01_of_match	nrf24l01_core.c	/^static const struct of_device_id nrf24l01_of_match[] = {$/;"	v	typeref:typename:const struct of_device_id[]	file:
+nrf24l01_probe	nrf24l01_core.c	/^static int nrf24l01_probe(struct spi_device* spi)$/;"	f	typeref:typename:int	file:
+nrf24l01_pwr_down	nrf24l01_functions.c	/^int nrf24l01_pwr_down(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_pwr_down_	nrf24l01_functions.c	/^int nrf24l01_pwr_down_(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_pwr_up	nrf24l01_functions.c	/^int nrf24l01_pwr_up(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_pwr_up_	nrf24l01_functions.c	/^int nrf24l01_pwr_up_(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_read_packet	nrf24l01_functions.c	/^ssize_t nrf24l01_read_packet(struct nrf24l01_t* nrf, bool noblock, unsigned char* data, unsigned/;"	f	typeref:typename:ssize_t
+nrf24l01_read_short_reg	nrf24l01_spi.c	/^int nrf24l01_read_short_reg(void* ctx, unsigned int reg, unsigned int* val)$/;"	f	typeref:typename:int
+nrf24l01_reader_dec	nrf24l01_functions.c	/^static int nrf24l01_reader_dec(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int	file:
+nrf24l01_reader_inc	nrf24l01_functions.c	/^static void nrf24l01_reader_inc(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:void	file:
+nrf24l01_reg_addr_read	nrf24l01_reg.c	/^int nrf24l01_reg_addr_read(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len)$/;"	f	typeref:typename:int
+nrf24l01_reg_addr_write	nrf24l01_reg.c	/^int nrf24l01_reg_addr_write(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len/;"	f	typeref:typename:int
+nrf24l01_reg_get_addr_len	nrf24l01_reg.c	/^int nrf24l01_reg_get_addr_len(void* ctx, struct partreg* reg, unsigned int* len)$/;"	f	typeref:typename:int
+nrf24l01_reg_get_status	nrf24l01_reg.c	/^int nrf24l01_reg_get_status(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len/;"	f	typeref:typename:int
+nrf24l01_reg_layout	nrf24l01_reg.c	/^static struct partreg_layout nrf24l01_reg_layout = {$/;"	v	typeref:struct:partreg_layout	file:
+nrf24l01_reg_masks	nrf24l01_spi.c	/^static char nrf24l01_reg_masks[] = {$/;"	v	typeref:typename:char[]	file:
+nrf24l01_reg_set_status	nrf24l01_reg.c	/^int nrf24l01_reg_set_status(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len/;"	f	typeref:typename:int
+nrf24l01_regmap_short	nrf24l01_core.c	/^static const struct regmap_config nrf24l01_regmap_short = {$/;"	v	typeref:typename:const struct regmap_config	file:
+nrf24l01_regs	nrf24l01_reg.c	/^static struct partreg_template* nrf24l01_regs[] = {$/;"	v	typeref:struct:partreg_template * []	file:
+nrf24l01_remove	nrf24l01_core.c	/^static int nrf24l01_remove(struct spi_device* spi)$/;"	f	typeref:typename:int	file:
+nrf24l01_sanitize_string	nrf24l01_sysfs.c	/^static char* nrf24l01_sanitize_string(const char* data, size_t len)$/;"	f	typeref:typename:char *	file:
+nrf24l01_send_packet	nrf24l01_functions.c	/^int nrf24l01_send_packet(struct nrf24l01_t* nrf, bool noblock, unsigned char* data, unsigned int/;"	f	typeref:typename:int
+nrf24l01_set_address_u64	nrf24l01_functions.c	/^int nrf24l01_set_address_u64(struct nrf24l01_t* nrf, u64 addr, unsigned int pipe)$/;"	f	typeref:typename:int
+nrf24l01_set_address_width	nrf24l01_functions.c	/^int nrf24l01_set_address_width(struct nrf24l01_t* nrf, unsigned int width)$/;"	f	typeref:typename:int
+nrf24l01_set_ce	nrf24l01_functions.c	/^void nrf24l01_set_ce(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:void
+nrf24l01_set_ce_	nrf24l01_functions.c	/^void nrf24l01_set_ce_(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:void
+nrf24l01_set_channel	nrf24l01_functions.c	/^int nrf24l01_set_channel(struct nrf24l01_t* nrf, unsigned int ch)$/;"	f	typeref:typename:int
+nrf24l01_set_crc	nrf24l01_functions.c	/^int nrf24l01_set_crc(struct nrf24l01_t* nrf, unsigned int crc)$/;"	f	typeref:typename:int
+nrf24l01_set_dr	nrf24l01_functions.c	/^int nrf24l01_set_dr(struct nrf24l01_t* nrf, int dr)$/;"	f	typeref:typename:int
+nrf24l01_set_dynpd	nrf24l01_functions.c	/^int nrf24l01_set_dynpd(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_en_rxaddr	nrf24l01_functions.c	/^int nrf24l01_set_en_rxaddr(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_enaa	nrf24l01_functions.c	/^int nrf24l01_set_enaa(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int autoack)$/;"	f	typeref:typename:int
+nrf24l01_set_feature_dynpd	nrf24l01_functions.c	/^static int nrf24l01_set_feature_dynpd(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:int	file:
+nrf24l01_set_pipe_pld_width	nrf24l01_functions.c	/^int nrf24l01_set_pipe_pld_width(struct nrf24l01_t* nrf, unsigned int pipe, unsigned int width)$/;"	f	typeref:typename:int
+nrf24l01_set_prim_rx	nrf24l01_functions.c	/^int nrf24l01_set_prim_rx(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_prim_rx_	nrf24l01_functions.c	/^int nrf24l01_set_prim_rx_(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_pwr_up	nrf24l01_functions.c	/^int nrf24l01_set_pwr_up(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_pwr_up_	nrf24l01_functions.c	/^int nrf24l01_set_pwr_up_(struct nrf24l01_t* nrf, unsigned int state)$/;"	f	typeref:typename:int
+nrf24l01_set_retr_arc	nrf24l01_functions.c	/^int nrf24l01_set_retr_arc(struct nrf24l01_t* nrf, unsigned int arc)$/;"	f	typeref:typename:int
+nrf24l01_set_retr_ard	nrf24l01_functions.c	/^int nrf24l01_set_retr_ard(struct nrf24l01_t* nrf, unsigned int ard)$/;"	f	typeref:typename:int
+nrf24l01_set_rx	nrf24l01_functions.c	/^int nrf24l01_set_rx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_set_rx_addr	nrf24l01_functions.c	/^int nrf24l01_set_rx_addr(struct nrf24l01_t* nrf, unsigned int pipe, unsigned char* addr, unsigne/;"	f	typeref:typename:int
+nrf24l01_set_rxtx	nrf24l01_functions.c	/^int nrf24l01_set_rxtx(struct nrf24l01_t* nrf, int state)$/;"	f	typeref:typename:int
+nrf24l01_set_status_max_rt	nrf24l01_functions.c	/^int nrf24l01_set_status_max_rt(struct nrf24l01_t* nrf, unsigned int status)$/;"	f	typeref:typename:int
+nrf24l01_set_status_rx_dr	nrf24l01_functions.c	/^int nrf24l01_set_status_rx_dr(struct nrf24l01_t* nrf, unsigned int status)$/;"	f	typeref:typename:int
+nrf24l01_set_status_tx_ds	nrf24l01_functions.c	/^int nrf24l01_set_status_tx_ds(struct nrf24l01_t* nrf, unsigned int status)$/;"	f	typeref:typename:int
+nrf24l01_set_tx	nrf24l01_functions.c	/^int nrf24l01_set_tx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_set_tx_addr	nrf24l01_functions.c	/^int nrf24l01_set_tx_addr(struct nrf24l01_t* nrf, unsigned char* addr, unsigned int len)$/;"	f	typeref:typename:int
+nrf24l01_set_tx_address_u64	nrf24l01_functions.c	/^int nrf24l01_set_tx_address_u64(struct nrf24l01_t* nrf, u64 addr)$/;"	f	typeref:typename:int
+nrf24l01_set_tx_power	nrf24l01_functions.c	/^int nrf24l01_set_tx_power(struct nrf24l01_t* nrf, int tx_pwr)$/;"	f	typeref:typename:int
+nrf24l01_shutdown	nrf24l01_functions.c	/^int nrf24l01_shutdown(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_spi_cmd_read	nrf24l01_spi.c	/^static int nrf24l01_spi_cmd_read(struct nrf24l01_t* nrf, u8 cmd, unsigned char* dest, unsigned i/;"	f	typeref:typename:int	file:
+nrf24l01_spi_cmd_write	nrf24l01_spi.c	/^static int nrf24l01_spi_cmd_write(struct nrf24l01_t* nrf, u8 cmd, unsigned char* data, unsigned /;"	f	typeref:typename:int	file:
+nrf24l01_spi_flush_rx	nrf24l01_spi.c	/^int nrf24l01_spi_flush_rx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_spi_flush_tx	nrf24l01_spi.c	/^int nrf24l01_spi_flush_tx(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_spi_nop	nrf24l01_spi.c	/^int nrf24l01_spi_nop(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_spi_read_reg	nrf24l01_spi.c	/^int nrf24l01_spi_read_reg(struct nrf24l01_t* nrf, unsigned int reg, unsigned char* data, unsigne/;"	f	typeref:typename:int
+nrf24l01_spi_read_rx_pl_width	nrf24l01_spi.c	/^int nrf24l01_spi_read_rx_pl_width(struct nrf24l01_t* nrf, unsigned int* width)$/;"	f	typeref:typename:int
+nrf24l01_spi_read_rx_pld	nrf24l01_spi.c	/^int nrf24l01_spi_read_rx_pld(struct nrf24l01_t* nrf, unsigned char* data, unsigned int len)$/;"	f	typeref:typename:int
+nrf24l01_spi_read_status	nrf24l01_spi.c	/^int nrf24l01_spi_read_status(struct nrf24l01_t* nrf, unsigned char* status)$/;"	f	typeref:typename:int
+nrf24l01_spi_reuse_tx_pl	nrf24l01_spi.c	/^int nrf24l01_spi_reuse_tx_pl(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_spi_write	nrf24l01_spi.c	/^static int nrf24l01_spi_write(struct nrf24l01_t* nrf, unsigned char* data, unsigned int len)$/;"	f	typeref:typename:int	file:
+nrf24l01_spi_write_ack_pld	nrf24l01_spi.c	/^int nrf24l01_spi_write_ack_pld(struct nrf24l01_t* nrf, unsigned int pipe, unsigned char* data, u/;"	f	typeref:typename:int
+nrf24l01_spi_write_reg	nrf24l01_spi.c	/^int nrf24l01_spi_write_reg(struct nrf24l01_t* nrf, unsigned int reg, unsigned char* data, unsign/;"	f	typeref:typename:int
+nrf24l01_spi_write_tx_pld	nrf24l01_spi.c	/^int nrf24l01_spi_write_tx_pld(struct nrf24l01_t* nrf, unsigned char* data, unsigned int len)$/;"	f	typeref:typename:int
+nrf24l01_spi_write_tx_pld_no_ack	nrf24l01_spi.c	/^int nrf24l01_spi_write_tx_pld_no_ack(struct nrf24l01_t* nrf, unsigned char* data, unsigned int l/;"	f	typeref:typename:int
+nrf24l01_sysfs_show_addr_width	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_addr_width(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_show_address(struct device* dev, char* buf, unsigned int pipe)$/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_show_address_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe0(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe1(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe2(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe3(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe4(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_address_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_address_pipe5(struct device* dev, struct device_attribute* attr, cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_ce	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_ce(struct device* dev, struct device_attribute* attr, char* buf)$/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_channel	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_channel(struct device* dev, struct device_attribute* attr, char* buf/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_crc	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_crc(struct device* dev, struct device_attribute* attr, char* buf)$/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dr	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dr(struct device* dev, struct device_attribute* attr, char* buf)$/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_show_dynpd(struct device* dev, char* buf, unsigned int pipe)$/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_show_dynpd_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe0(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe1(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe2(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe3(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe4(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_dynpd_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_dynpd_pipe5(struct device* dev, struct device_attribute* attr, char*/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_show_enaa(struct device* dev, char* buf, unsigned int pipe)$/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_show_enaa_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe0(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe1(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe2(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe3(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe4(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enaa_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enaa_pipe5(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_show_enable(struct device* dev, char* buf, unsigned int pipe)$/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_show_enable_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe0(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe1(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe2(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe3(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe4(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_enable_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_enable_pipe5(struct device* dev, struct device_attribute* attr, char/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_show_payload_width(struct device* dev, char* buf, unsigned int pip/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_show_payload_width_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe0(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe1(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe2(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe3(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe4(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_payload_width_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_payload_width_pipe5(struct device* dev, struct device_attribute* att/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_pwr_up	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_pwr_up(struct device* dev, struct device_attribute* attr, char* buf)$/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_retr_arc	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_retr_arc(struct device* dev, struct device_attribute* attr, char* bu/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_retr_ard	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_retr_ard(struct device* dev, struct device_attribute* attr, char* bu/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_tx_address	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_tx_address(struct device* dev, struct device_attribute* attr, char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_show_tx_pwr	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_show_tx_pwr(struct device* dev, struct device_attribute* attr, char* buf)$/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_addr_width	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_addr_width(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_store_address(struct device* dev, const char* buf, size_t count, u/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_store_address_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe0(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe1(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe2(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe3(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe4(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_address_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_address_pipe5(struct device* dev, struct device_attribute* attr, co/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_ce	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_ce(struct device* dev, struct device_attribute* attr, const char* b/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_channel	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_channel(struct device* dev, struct device_attribute* attr, const ch/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_crc	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_crc(struct device* dev, struct device_attribute* attr, const char* /;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dr	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dr(struct device* dev, struct device_attribute* attr, const char* b/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_store_dynpd(struct device* dev, const char* buf, size_t count, uns/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_store_dynpd_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe0(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe1(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe2(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe3(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe4(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_dynpd_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_dynpd_pipe5(struct device* dev, struct device_attribute* attr, cons/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_store_enaa(struct device* dev, const char* buf, size_t count, unsi/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_store_enaa_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe0(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe1(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe2(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe3(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe4(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enaa_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enaa_pipe5(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_store_enable(struct device* dev, const char* buf, size_t count, un/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_store_enable_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe0(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe1(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe2(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe3(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe4(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_enable_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_enable_pipe5(struct device* dev, struct device_attribute* attr, con/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width	nrf24l01_sysfs.c	/^static ssize_t nrf24l01_sysfs_store_payload_width(struct device* dev, const char* buf, size_t co/;"	f	typeref:typename:ssize_t	file:
+nrf24l01_sysfs_store_payload_width_pipe0	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe0(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width_pipe1	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe1(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width_pipe2	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe2(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width_pipe3	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe3(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width_pipe4	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe4(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_payload_width_pipe5	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_payload_width_pipe5(struct device* dev, struct device_attribute* at/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_pwr_up	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_pwr_up(struct device* dev, struct device_attribute* attr, const cha/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_retr_arc	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_retr_arc(struct device* dev, struct device_attribute* attr, const c/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_retr_ard	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_retr_ard(struct device* dev, struct device_attribute* attr, const c/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_tx_address	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_tx_address(struct device* dev, struct device_attribute* attr, const/;"	f	typeref:typename:ssize_t
+nrf24l01_sysfs_store_tx_pwr	nrf24l01_sysfs.c	/^ssize_t nrf24l01_sysfs_store_tx_pwr(struct device* dev, struct device_attribute* attr, const cha/;"	f	typeref:typename:ssize_t
+nrf24l01_t	nrf24l01_core.h	/^typedef struct nrf24l01_t {$/;"	s
+nrf24l01_t	nrf24l01_core.h	/^} nrf24l01_t;$/;"	t	typeref:struct:nrf24l01_t
+nrf24l01_test_unflushable_fifo	nrf24l01_quirks.c	/^int nrf24l01_test_unflushable_fifo(struct nrf24l01_t* nrf)$/;"	f	typeref:typename:int
+nrf24l01_worker	nrf24l01_worker.h	/^typedef struct nrf24l01_worker {$/;"	s
+nrf24l01_worker	nrf24l01_worker.h	/^} nrf24l01_worker;$/;"	t	typeref:struct:nrf24l01_worker
+nrf24l01_worker_do_work	nrf24l01_worker.c	/^static int nrf24l01_worker_do_work(void* ctx)$/;"	f	typeref:typename:int	file:
+nrf24l01_write_short_reg	nrf24l01_spi.c	/^int nrf24l01_write_short_reg(void* ctx, unsigned int reg, unsigned int val)$/;"	f	typeref:typename:int
+nrf24l01_write_short_reg_masked	nrf24l01_spi.c	/^int nrf24l01_write_short_reg_masked(void* ctx, unsigned int reg, unsigned int val)$/;"	f	typeref:typename:int
+num_readers	nrf24l01_core.h	/^	unsigned int			num_readers;$/;"	m	struct:nrf24l01_t	typeref:typename:unsigned int
+num_sessions	nrf24l01_chrdev.h	/^	unsigned int		num_sessions;$/;"	m	struct:nrf24l01_chrdev	typeref:typename:unsigned int
+offset	partregmap.h	/^	unsigned int offset; \/\/ applied before mask$/;"	m	struct:partreg	typeref:typename:unsigned int
+offset	partregmap.h	/^	unsigned int offset;$/;"	m	struct:partreg_template	typeref:typename:unsigned int
+partreg	partregmap.h	/^typedef struct partreg {$/;"	s
+partreg	partregmap.h	/^} partreg;$/;"	t	typeref:struct:partreg
+partreg_create_reg	partregmap.c	/^struct partreg* partreg_create_reg(struct partreg_template* template, struct regmap* regmap, voi/;"	f	typeref:struct:partreg *
+partreg_create_table	partregmap.c	/^struct partreg_table* partreg_create_table(struct partreg_layout* layout, struct regmap* regmap,/;"	f	typeref:struct:partreg_table *
+partreg_custom_read	partregmap.c	/^static int partreg_custom_read(struct partreg* reg, unsigned int* value, unsigned int maxlen)$/;"	f	typeref:typename:int	file:
+partreg_custom_write	partregmap.c	/^static int partreg_custom_write(struct partreg* reg, unsigned int* value, unsigned int maxlen)$/;"	f	typeref:typename:int	file:
+partreg_free_reg	partregmap.c	/^void partreg_free_reg(struct partreg* partreg)$/;"	f	typeref:typename:void
+partreg_free_table	partregmap.c	/^void partreg_free_table(struct partreg_table* table)$/;"	f	typeref:typename:void
+partreg_in_range	partregmap.c	/^static int partreg_in_range(struct partreg* reg, unsigned int value)$/;"	f	typeref:typename:int	file:
+partreg_layout	partregmap.h	/^typedef struct partreg_layout {$/;"	s
+partreg_layout	partregmap.h	/^} partreg_layout;$/;"	t	typeref:struct:partreg_layout
+partreg_range	partregmap.h	/^typedef struct partreg_range {$/;"	s
+partreg_range	partregmap.h	/^} partreg_range;$/;"	t	typeref:struct:partreg_range
+partreg_range_table	partregmap.h	/^typedef struct partreg_range_table {$/;"	s
+partreg_range_table	partregmap.h	/^} partreg_range_table;$/;"	t	typeref:struct:partreg_range_table
+partreg_read	partregmap.c	/^int partreg_read(struct partreg* reg, unsigned int* value, unsigned int maxlen)$/;"	f	typeref:typename:int
+partreg_reg_range	partregmap.h	/^#define partreg_reg_range(/;"	d
+partreg_regmap_read	partregmap.c	/^static int partreg_regmap_read(struct partreg* reg, unsigned int* value)$/;"	f	typeref:typename:int	file:
+partreg_regmap_write	partregmap.c	/^static int partreg_regmap_write(struct partreg* reg, unsigned int value)$/;"	f	typeref:typename:int	file:
+partreg_table	partregmap.h	/^typedef struct partreg_table {$/;"	s
+partreg_table	partregmap.h	/^} partreg_table;$/;"	t	typeref:struct:partreg_table
+partreg_table_read	partregmap.c	/^int partreg_table_read(struct partreg_table* table, unsigned int reg, unsigned int* value, unsig/;"	f	typeref:typename:int
+partreg_table_write	partregmap.c	/^int partreg_table_write(struct partreg_table* table, unsigned int reg, unsigned int* value, unsi/;"	f	typeref:typename:int
+partreg_template	partregmap.h	/^typedef struct partreg_template {$/;"	s
+partreg_template	partregmap.h	/^} partreg_template;$/;"	t	typeref:struct:partreg_template
+partreg_write	partregmap.c	/^int partreg_write(struct partreg* reg, unsigned int* value, unsigned int maxlen)$/;"	f	typeref:typename:int
+range_config_crco	nrf24l01_reg.c	/^static struct partreg_range range_config_crco = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_en_crc	nrf24l01_reg.c	/^static struct partreg_range range_config_en_crc = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_mask_max_rt	nrf24l01_reg.c	/^static struct partreg_range range_config_mask_max_rt = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_mask_rx_dr	nrf24l01_reg.c	/^static struct partreg_range range_config_mask_rx_dr = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_mask_tx_ds	nrf24l01_reg.c	/^static struct partreg_range range_config_mask_tx_ds = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_prim_rx	nrf24l01_reg.c	/^static struct partreg_range range_config_prim_rx = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_config_pwr_up	nrf24l01_reg.c	/^static struct partreg_range range_config_pwr_up = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p0	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p0 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p1	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p1 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p2	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p2 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p3	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p3 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p4	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p4 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_dynpd_dpl_p5	nrf24l01_reg.c	/^static struct partreg_range range_dynpd_dpl_p5 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p0	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p0 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p1	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p1 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p2	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p2 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p3	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p3 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p4	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p4 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_aa_enaa_p5	nrf24l01_reg.c	/^static struct partreg_range range_en_aa_enaa_p5 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p0	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p0 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p1	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p1 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p2	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p2 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p3	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p3 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p4	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p4 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_en_rxaddr_erx_p5	nrf24l01_reg.c	/^static struct partreg_range range_en_rxaddr_erx_p5 = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_feature_en_ack_pay	nrf24l01_reg.c	/^static struct partreg_range range_feature_en_ack_pay = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_feature_en_dpl	nrf24l01_reg.c	/^static struct partreg_range range_feature_en_dpl = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_feature_en_dyn_ack	nrf24l01_reg.c	/^static struct partreg_range range_feature_en_dyn_ack = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_fifo_status_rx_empty	nrf24l01_reg.c	/^static struct partreg_range range_fifo_status_rx_empty = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_fifo_status_rx_full	nrf24l01_reg.c	/^static struct partreg_range range_fifo_status_rx_full = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_fifo_status_tx_empty	nrf24l01_reg.c	/^static struct partreg_range range_fifo_status_tx_empty = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_fifo_status_tx_full	nrf24l01_reg.c	/^static struct partreg_range range_fifo_status_tx_full = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_fifo_status_tx_reuse	nrf24l01_reg.c	/^static struct partreg_range range_fifo_status_tx_reuse = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_observe_tx_arc_cnt	nrf24l01_reg.c	/^static struct partreg_range range_observe_tx_arc_cnt = partreg_reg_range(0, 0b1111);$/;"	v	typeref:struct:partreg_range	file:
+range_observe_tx_plos_cnt	nrf24l01_reg.c	/^static struct partreg_range range_observe_tx_plos_cnt = partreg_reg_range(0, 0b1111);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_ch_rf_ch	nrf24l01_reg.c	/^static struct partreg_range range_rf_ch_rf_ch = partreg_reg_range(0, 0b01111111);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_setup_cont_wave	nrf24l01_reg.c	/^static struct partreg_range range_rf_setup_cont_wave = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_setup_pll_lock	nrf24l01_reg.c	/^static struct partreg_range range_rf_setup_pll_lock = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_setup_rf_dr	nrf24l01_reg.c	/^static struct partreg_range* range_rf_setup_rf_dr[] = {$/;"	v	typeref:struct:partreg_range * []	file:
+range_rf_setup_rf_dr_hi	nrf24l01_reg.c	/^static struct partreg_range range_rf_setup_rf_dr_hi = partreg_reg_range(0, 0b001);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_setup_rf_dr_lo	nrf24l01_reg.c	/^static struct partreg_range range_rf_setup_rf_dr_lo = partreg_reg_range(0b100, 0b100);$/;"	v	typeref:struct:partreg_range	file:
+range_rf_setup_rf_pwr	nrf24l01_reg.c	/^static struct partreg_range range_rf_setup_rf_pwr = partreg_reg_range(0, 0b11);$/;"	v	typeref:struct:partreg_range	file:
+range_rpd_rpd	nrf24l01_reg.c	/^static struct partreg_range range_rpd_rpd = partreg_reg_range(0, 0b1);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p0	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p0 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p1	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p1 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p2	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p2 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p3	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p3 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p4	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p4 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_rx_pw_p5	nrf24l01_reg.c	/^static struct partreg_range range_rx_pw_p5 = partreg_reg_range(0, NRF24L01_PACKET_MAX_LENGTH);$/;"	v	typeref:struct:partreg_range	file:
+range_setup_aw_aw	nrf24l01_reg.c	/^static struct partreg_range range_setup_aw_aw = partreg_reg_range(1, 0b11);$/;"	v	typeref:struct:partreg_range	file:
+range_setup_retr_arc	nrf24l01_reg.c	/^static struct partreg_range range_setup_retr_arc = partreg_reg_range(0, 0b1111);$/;"	v	typeref:struct:partreg_range	file:
+range_setup_retr_ard	nrf24l01_reg.c	/^static struct partreg_range range_setup_retr_ard = partreg_reg_range(0, 0b1111);$/;"	v	typeref:struct:partreg_range	file:
+range_status_max_rt	nrf24l01_reg.c	/^static struct partreg_range range_status_max_rt = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_status_rx_dr	nrf24l01_reg.c	/^static struct partreg_range range_status_rx_dr = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_status_rx_p_no	nrf24l01_reg.c	/^static struct partreg_range range_status_rx_p_no = partreg_reg_range(0, 0b111);$/;"	v	typeref:struct:partreg_range	file:
+range_status_tx_ds	nrf24l01_reg.c	/^static struct partreg_range range_status_tx_ds = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_status_tx_full	nrf24l01_reg.c	/^static struct partreg_range range_status_tx_full = partreg_reg_range(0, 1);$/;"	v	typeref:struct:partreg_range	file:
+range_table_rf_setup_rf_dr	nrf24l01_reg.c	/^static struct partreg_range_table range_table_rf_setup_rf_dr = {$/;"	v	typeref:struct:partreg_range_table	file:
+ranges	partregmap.h	/^	struct partreg_range** ranges;$/;"	m	struct:partreg_range_table	typeref:struct:partreg_range **
+read_offset	nrf24l01_chrdev.h	/^	unsigned int			read_offset;$/;"	m	struct:nrf24l01_chrdev_session	typeref:typename:unsigned int
+reg	partregmap.h	/^	unsigned int reg;$/;"	m	struct:partreg	typeref:typename:unsigned int
+reg	partregmap.h	/^	unsigned int reg;$/;"	m	struct:partreg_template	typeref:typename:unsigned int
+reg_config_crco	nrf24l01_reg.c	/^static struct partreg_template reg_config_crco = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_en_crc	nrf24l01_reg.c	/^static struct partreg_template reg_config_en_crc = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_mask_max_rt	nrf24l01_reg.c	/^static struct partreg_template reg_config_mask_max_rt = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_mask_rx_dr	nrf24l01_reg.c	/^static struct partreg_template reg_config_mask_rx_dr = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_mask_tx_ds	nrf24l01_reg.c	/^static struct partreg_template reg_config_mask_tx_ds = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_prim_rx	nrf24l01_reg.c	/^static struct partreg_template reg_config_prim_rx = {$/;"	v	typeref:struct:partreg_template	file:
+reg_config_pwr_up	nrf24l01_reg.c	/^static struct partreg_template reg_config_pwr_up = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p0	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p0 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p1	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p1 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p2	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p2 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p3	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p3 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p4	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p4 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_dynpd_dpl_p5	nrf24l01_reg.c	/^static struct partreg_template reg_dynpd_dpl_p5 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p0	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p0 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p1	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p1 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p2	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p2 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p3	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p3 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p4	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p4 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_aa_enaa_p5	nrf24l01_reg.c	/^static struct partreg_template reg_en_aa_enaa_p5 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p0	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p0 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p1	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p1 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p2	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p2 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p3	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p3 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p4	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p4 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_en_rxaddr_erx_p5	nrf24l01_reg.c	/^static struct partreg_template reg_en_rxaddr_erx_p5 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_feature_en_ack_pay	nrf24l01_reg.c	/^static struct partreg_template reg_feature_en_ack_pay = {$/;"	v	typeref:struct:partreg_template	file:
+reg_feature_en_dpl	nrf24l01_reg.c	/^static struct partreg_template reg_feature_en_dpl = {$/;"	v	typeref:struct:partreg_template	file:
+reg_feature_en_dyn_ack	nrf24l01_reg.c	/^static struct partreg_template reg_feature_en_dyn_ack = {$/;"	v	typeref:struct:partreg_template	file:
+reg_fifo_status_rx_empty	nrf24l01_reg.c	/^static struct partreg_template reg_fifo_status_rx_empty = {$/;"	v	typeref:struct:partreg_template	file:
+reg_fifo_status_rx_full	nrf24l01_reg.c	/^static struct partreg_template reg_fifo_status_rx_full = {$/;"	v	typeref:struct:partreg_template	file:
+reg_fifo_status_tx_empty	nrf24l01_reg.c	/^static struct partreg_template reg_fifo_status_tx_empty = {$/;"	v	typeref:struct:partreg_template	file:
+reg_fifo_status_tx_full	nrf24l01_reg.c	/^static struct partreg_template reg_fifo_status_tx_full = {$/;"	v	typeref:struct:partreg_template	file:
+reg_fifo_status_tx_reuse	nrf24l01_reg.c	/^static struct partreg_template reg_fifo_status_tx_reuse = {$/;"	v	typeref:struct:partreg_template	file:
+reg_observe_tx_arc_cnt	nrf24l01_reg.c	/^static struct partreg_template reg_observe_tx_arc_cnt = {$/;"	v	typeref:struct:partreg_template	file:
+reg_observe_tx_plos_cnt	nrf24l01_reg.c	/^static struct partreg_template reg_observe_tx_plos_cnt = {$/;"	v	typeref:struct:partreg_template	file:
+reg_read	partregmap.h	/^	int (* reg_read)(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len);$/;"	m	struct:partreg	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * data,unsigned int len)
+reg_read	partregmap.h	/^	int (* reg_read)(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len);$/;"	m	struct:partreg_template	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * data,unsigned int len)
+reg_rf_ch_rf_ch	nrf24l01_reg.c	/^static struct partreg_template reg_rf_ch_rf_ch = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rf_setup_cont_wave	nrf24l01_reg.c	/^static struct partreg_template reg_rf_setup_cont_wave = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rf_setup_pll_lock	nrf24l01_reg.c	/^static struct partreg_template reg_rf_setup_pll_lock = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rf_setup_rf_dr	nrf24l01_reg.c	/^static struct partreg_template reg_rf_setup_rf_dr = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rf_setup_rf_pwr	nrf24l01_reg.c	/^static struct partreg_template reg_rf_setup_rf_pwr = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rpd_rpd	nrf24l01_reg.c	/^static struct partreg_template reg_rpd_rpd = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p0	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p0 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p1	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p1 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p2	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p2 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p3	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p3 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p4	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p4 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_addr_p5	nrf24l01_reg.c	/^static struct partreg_template reg_rx_addr_p5 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p0	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p0 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p1	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p1 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p2	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p2 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p3	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p3 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p4	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p4 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_rx_pw_p5	nrf24l01_reg.c	/^static struct partreg_template reg_rx_pw_p5 = {$/;"	v	typeref:struct:partreg_template	file:
+reg_setup_aw_aw	nrf24l01_reg.c	/^static struct partreg_template reg_setup_aw_aw = {$/;"	v	typeref:struct:partreg_template	file:
+reg_setup_retr_arc	nrf24l01_reg.c	/^static struct partreg_template reg_setup_retr_arc = {$/;"	v	typeref:struct:partreg_template	file:
+reg_setup_retr_ard	nrf24l01_reg.c	/^static struct partreg_template reg_setup_retr_ard = {$/;"	v	typeref:struct:partreg_template	file:
+reg_status_max_rt	nrf24l01_reg.c	/^static struct partreg_template reg_status_max_rt = {$/;"	v	typeref:struct:partreg_template	file:
+reg_status_rx_dr	nrf24l01_reg.c	/^static struct partreg_template reg_status_rx_dr = {$/;"	v	typeref:struct:partreg_template	file:
+reg_status_rx_p_no	nrf24l01_reg.c	/^static struct partreg_template reg_status_rx_p_no = {$/;"	v	typeref:struct:partreg_template	file:
+reg_status_tx_ds	nrf24l01_reg.c	/^static struct partreg_template reg_status_tx_ds = {$/;"	v	typeref:struct:partreg_template	file:
+reg_status_tx_full	nrf24l01_reg.c	/^static struct partreg_template reg_status_tx_full = {$/;"	v	typeref:struct:partreg_template	file:
+reg_table	nrf24l01_core.h	/^	struct partreg_table*	reg_table;$/;"	m	struct:nrf24l01_t	typeref:struct:partreg_table *
+reg_tx_addr	nrf24l01_reg.c	/^static struct partreg_template reg_tx_addr = {$/;"	v	typeref:struct:partreg_template	file:
+reg_write	partregmap.h	/^	int (* reg_write)(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len);$/;"	m	struct:partreg	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * data,unsigned int len)
+reg_write	partregmap.h	/^	int (* reg_write)(void* ctx, struct partreg* reg, unsigned int* data, unsigned int len);$/;"	m	struct:partreg_template	typeref:typename:int (*)(void * ctx,struct partreg * reg,unsigned int * data,unsigned int len)
+regmap	partregmap.h	/^	struct regmap* regmap; \/\/ optional$/;"	m	struct:partreg	typeref:struct:regmap *
+regmap_precious_table_short	nrf24l01_core.c	/^static const struct regmap_access_table regmap_precious_table_short = {$/;"	v	typeref:typename:const struct regmap_access_table	file:
+regmap_precious_table_short_no	nrf24l01_core.c	/^static const struct regmap_range regmap_precious_table_short_no[] = { regmap_reg_range(0x00, 0x1/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_precious_table_short_yes	nrf24l01_core.c	/^static const struct regmap_range regmap_precious_table_short_yes[] = { regmap_reg_range(0x17, 0x/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_rd_table_short	nrf24l01_core.c	/^static const struct regmap_access_table regmap_rd_table_short = {$/;"	v	typeref:typename:const struct regmap_access_table	file:
+regmap_rd_table_short_no	nrf24l01_core.c	/^static const struct regmap_range regmap_rd_table_short_no[] = { regmap_reg_range(0x0A, 0x0B), re/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_rd_table_short_yes	nrf24l01_core.c	/^static const struct regmap_range regmap_rd_table_short_yes[] = { regmap_reg_range(0x00, 0x09), r/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_short	nrf24l01_core.h	/^	struct regmap*			regmap_short;$/;"	m	struct:nrf24l01_t	typeref:struct:regmap *
+regmap_volatile_table_short	nrf24l01_core.c	/^static const struct regmap_access_table regmap_volatile_table_short = {$/;"	v	typeref:typename:const struct regmap_access_table	file:
+regmap_volatile_table_short_no	nrf24l01_core.c	/^static const struct regmap_range regmap_volatile_table_short_no[] = { regmap_reg_range(0x01, 0x0/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_volatile_table_short_yes	nrf24l01_core.c	/^static const struct regmap_range regmap_volatile_table_short_yes[] = { regmap_reg_range(0x07, 0x/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_wr_table_short	nrf24l01_core.c	/^static const struct regmap_access_table regmap_wr_table_short = {$/;"	v	typeref:typename:const struct regmap_access_table	file:
+regmap_wr_table_short_no	nrf24l01_core.c	/^static const struct regmap_range regmap_wr_table_short_no[] = { regmap_reg_range(0x08, 0x08), re/;"	v	typeref:typename:const struct regmap_range[]	file:
+regmap_wr_table_short_yes	nrf24l01_core.c	/^static const struct regmap_range regmap_wr_table_short_yes[] = { regmap_reg_range(0x00, 0x07), r/;"	v	typeref:typename:const struct regmap_range[]	file:
+regs	partregmap.h	/^	struct partreg** regs;$/;"	m	struct:partreg_table	typeref:struct:partreg **
+regs	partregmap.h	/^	struct partreg_template** regs;$/;"	m	struct:partreg_layout	typeref:struct:partreg_template **
+rx_queue	nrf24l01_core.h	/^	wait_queue_head_t		rx_queue;$/;"	m	struct:nrf24l01_t	typeref:typename:wait_queue_head_t
+sema	nrf24l01_worker.h	/^	struct semaphore	sema;$/;"	m	struct:nrf24l01_worker	typeref:struct:semaphore
+shutdown	nrf24l01_chrdev.h	/^	bool				shutdown;$/;"	m	struct:nrf24l01_chrdev	typeref:typename:bool
+spi	nrf24l01_core.h	/^	struct spi_device*		spi;$/;"	m	struct:nrf24l01_t	typeref:struct:spi_device *
+thread	nrf24l01_worker.h	/^	struct task_struct*	thread;$/;"	m	struct:nrf24l01_worker	typeref:struct:task_struct *
+tx_queue	nrf24l01_core.h	/^	wait_queue_head_t		tx_queue;$/;"	m	struct:nrf24l01_t	typeref:typename:wait_queue_head_t
+value_range	partregmap.h	/^	struct partreg_range* value_range;$/;"	m	struct:partreg	typeref:struct:partreg_range *
+value_range	partregmap.h	/^	struct partreg_range* value_range;$/;"	m	struct:partreg_template	typeref:struct:partreg_range *
+value_ranges	partregmap.h	/^	struct partreg_range_table* value_ranges;	$/;"	m	struct:partreg_template	typeref:struct:partreg_range_table *
+value_ranges	partregmap.h	/^	struct partreg_range_table* value_ranges;$/;"	m	struct:partreg	typeref:struct:partreg_range_table *
+worker	nrf24l01_core.h	/^	struct nrf24l01_worker	worker;$/;"	m	struct:nrf24l01_t	typeref:struct:nrf24l01_worker

@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "module.h": "c",
+        "errno.h": "c",
+        "types.h": "c",
+        "moduleparam.h": "c",
+        "nrf24l01.h": "c",
+        "spinlock.h": "c",
+        "nrf24_func.h": "c",
+        "nrf24_sysfs.h": "c",
+        "device.h": "c",
+        "sysfs.h": "c",
+        "cdev.h": "c",
+        "kfifo.h": "c",
+        "nrf24_reg_def.h": "c",
+        "kobject.h": "c",
+        "init.h": "c",
+        "string.h": "c",
+        "kernel.h": "c"
+    }
+}

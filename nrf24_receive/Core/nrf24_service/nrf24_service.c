@@ -1100,7 +1100,7 @@ NRF24_SERVICE_STATUS NRF24_Control_Mode_Standby_Active(NRF24_CONTROL_MODE mode)
 }
 
 /*---------------------------------------------------------------------------
-                            PROTOTYPE FUNCTION
+                            STATIC FUNCTION
 ---------------------------------------------------------------------------*/
 /*
     Description:

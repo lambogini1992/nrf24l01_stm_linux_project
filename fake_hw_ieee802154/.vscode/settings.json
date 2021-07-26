@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "types.h": "c",
+        "in.h": "c",
+        "netdevice.h": "c",
+        "of.h": "c",
+        "nrf24l01_sysfs.h": "c",
+        "nrf24l01_netdev.h": "c",
+        "nrf24l01_worker.h": "c",
+        "nrf24l01_quirks.h": "c",
+        "nrf24l01_spi.h": "c",
+        "nrf24l01_core.h": "c",
+        "kthread.h": "c",
+        "semaphore.h": "c"
+    }
+}

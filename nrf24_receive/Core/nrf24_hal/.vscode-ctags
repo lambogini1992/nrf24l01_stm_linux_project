@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+HAL_GPIO_EXTI_Callback	nrf24_hal.c	/^void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)$/;"	f	typeref:typename:void
+HAL_TIM_PeriodElapsedCallback	nrf24_hal.c	/^void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)$/;"	f	typeref:typename:void
+NRF24_HAL_CE_PIN	nrf24_hal.c	/^#define NRF24_HAL_CE_PIN /;"	d	file:
+NRF24_HAL_CE_PORT	nrf24_hal.c	/^#define NRF24_HAL_CE_PORT /;"	d	file:
+NRF24_HAL_CE_STATUS	nrf24_hal.h	/^}NRF24_HAL_CE_STATUS;$/;"	t	typeref:enum:_nrf24_hal_CE_status
+NRF24_HAL_CE_STATUS_HIGH	nrf24_hal.h	/^    NRF24_HAL_CE_STATUS_HIGH$/;"	e	enum:_nrf24_hal_CE_status
+NRF24_HAL_CE_STATUS_LOW	nrf24_hal.h	/^    NRF24_HAL_CE_STATUS_LOW = 0,$/;"	e	enum:_nrf24_hal_CE_status
+NRF24_HAL_CMD	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_CMD(uint8_t cmd, uint8_t *data, uint16_t data_size, uint16_t time_out/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_CS_PIN	nrf24_hal.c	/^#define NRF24_HAL_CS_PIN /;"	d	file:
+NRF24_HAL_CS_PORT	nrf24_hal.c	/^#define NRF24_HAL_CS_PORT /;"	d	file:
+NRF24_HAL_Control_CE	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Control_CE(NRF24_HAL_CE_STATUS status)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_Control_DEBUG	nrf24_hal.c	/^NRF24_HAL_STATUS    NRF24_HAL_Control_DEBUG (NRF24_HAL_DEBUG_STATUS status)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_DEBUG_PIN	nrf24_hal.c	/^#define NRF24_HAL_DEBUG_PIN /;"	d	file:
+NRF24_HAL_DEBUG_PORT	nrf24_hal.c	/^#define NRF24_HAL_DEBUG_PORT /;"	d	file:
+NRF24_HAL_DEBUG_STATUS	nrf24_hal.h	/^}NRF24_HAL_DEBUG_STATUS;$/;"	t	typeref:enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DEBUG_STATUS_HIGH	nrf24_hal.h	/^    NRF24_HAL_DEBUG_STATUS_HIGH$/;"	e	enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DEBUG_STATUS_LOW	nrf24_hal.h	/^    NRF24_HAL_DEBUG_STATUS_LOW = 0,$/;"	e	enum:_nrf24_hal_DEBUG_status
+NRF24_HAL_DUMMY_BYTE_SPI	nrf24_hal.c	/^#define NRF24_HAL_DUMMY_BYTE_SPI /;"	d	file:
+NRF24_HAL_Get_CE_Status	nrf24_hal.c	/^NRF24_HAL_CE_STATUS NRF24_HAL_Get_CE_Status (void)$/;"	f	typeref:typename:NRF24_HAL_CE_STATUS
+NRF24_HAL_HANDLER	nrf24_hal.h	/^}NRF24_HAL_HANDLER;$/;"	t	typeref:struct:_nrf24_hal_handler_
+NRF24_HAL_INVALID_DATA	nrf24_hal.c	/^#define NRF24_HAL_INVALID_DATA /;"	d	file:
+NRF24_HAL_INVALID_DATA_LENGTH	nrf24_hal.c	/^#define NRF24_HAL_INVALID_DATA_LENGTH /;"	d	file:
+NRF24_HAL_IRQ_PIN	nrf24_hal.c	/^#define NRF24_HAL_IRQ_PIN /;"	d	file:
+NRF24_HAL_IRQ_PORT	nrf24_hal.c	/^#define NRF24_HAL_IRQ_PORT /;"	d	file:
+NRF24_HAL_Init	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Init(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_MULTI_MODE_PTX_PRX	nrf24_hal.h	/^#define NRF24_HAL_MULTI_MODE_PTX_PRX /;"	d
+NRF24_HAL_NRF24_HAL_H_	nrf24_hal.h	/^#define NRF24_HAL_NRF24_HAL_H_$/;"	d
+NRF24_HAL_READ_REG_CMD	nrf24_hal.c	/^#define NRF24_HAL_READ_REG_CMD /;"	d	file:
+NRF24_HAL_Read	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Read(uint8_t reg_add, uint8_t *data, uint16_t data_size, uint16_t tim/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_SPI_STATUS	nrf24_hal.c	/^}NRF24_HAL_SPI_STATUS;$/;"	t	typeref:enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_SPI_STATUS_DISABLE	nrf24_hal.c	/^    NRF24_HAL_SPI_STATUS_DISABLE$/;"	e	enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_SPI_STATUS_ENABLE	nrf24_hal.c	/^    NRF24_HAL_SPI_STATUS_ENABLE = 0,$/;"	e	enum:_nrf24_hal_spi_status_	file:
+NRF24_HAL_STATUS	nrf24_hal.h	/^}NRF24_HAL_STATUS;$/;"	t	typeref:enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_FAIL	nrf24_hal.h	/^    NRF24_HAL_STATUS_FAIL,$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_MAX	nrf24_hal.h	/^    NRF24_HAL_STATUS_MAX$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_STATUS_OK	nrf24_hal.h	/^    NRF24_HAL_STATUS_OK = 0,$/;"	e	enum:_nrf24_hal_status_
+NRF24_HAL_TIME_COUNT	nrf24_hal.c	/^#define NRF24_HAL_TIME_COUNT /;"	d	file:
+NRF24_HAL_TIME_PRESCALER	nrf24_hal.c	/^#define NRF24_HAL_TIME_PRESCALER /;"	d	file:
+NRF24_HAL_WRITE_REG_CMD	nrf24_hal.c	/^#define NRF24_HAL_WRITE_REG_CMD /;"	d	file:
+NRF24_HAL_Write	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_Write(uint8_t reg_add, uint8_t *data, uint16_t data_size, uint16_t ti/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_control_spi	nrf24_hal.c	/^void NRF24_HAL_control_spi(NRF24_HAL_SPI_STATUS ctrl_status)$/;"	f	typeref:typename:void
+NRF24_HAL_init_clock	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_clock(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_gpio	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_gpio(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_spi	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_spi(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+NRF24_HAL_init_timer	nrf24_hal.c	/^NRF24_HAL_STATUS NRF24_HAL_init_timer(void)$/;"	f	typeref:typename:NRF24_HAL_STATUS
+_nrf24_hal_CE_status	nrf24_hal.h	/^typedef enum _nrf24_hal_CE_status$/;"	g
+_nrf24_hal_DEBUG_status	nrf24_hal.h	/^typedef enum _nrf24_hal_DEBUG_status$/;"	g
+_nrf24_hal_handler_	nrf24_hal.h	/^typedef struct _nrf24_hal_handler_$/;"	s
+_nrf24_hal_spi_status_	nrf24_hal.c	/^typedef enum _nrf24_hal_spi_status_$/;"	g	file:
+_nrf24_hal_status_	nrf24_hal.h	/^typedef enum _nrf24_hal_status_$/;"	g
+callback_irq	nrf24_hal.h	/^    uint8_t (*callback_irq)(void);$/;"	m	struct:_nrf24_hal_handler_	typeref:typename:uint8_t (*)(void)
+callback_timer	nrf24_hal.h	/^    uint8_t (*callback_timer)(void);$/;"	m	struct:_nrf24_hal_handler_	typeref:typename:uint8_t (*)(void)
+hal_handler	nrf24_hal.c	/^NRF24_HAL_HANDLER hal_handler;$/;"	v	typeref:typename:NRF24_HAL_HANDLER
+hspi1	nrf24_hal.c	/^SPI_HandleTypeDef hspi1;$/;"	v	typeref:typename:SPI_HandleTypeDef
+htim1	nrf24_hal.c	/^TIM_HandleTypeDef htim1;$/;"	v	typeref:typename:TIM_HandleTypeDef
