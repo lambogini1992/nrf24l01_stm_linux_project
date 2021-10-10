@@ -1,0 +1,6 @@
+1. Put this folder into recipes-kernel of meta-$(bsp-board)
+2. In file build/conf/local.conf add the belows line 
+    MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "kernel-module-nrf24l01"
+3. Run bitbake $(image). Whose IMAGE_FEATURE has dev-pkgs.
+4. For loading nrf24l01 kernel, we need run the belows commands
+    modprobe nrf24l01
