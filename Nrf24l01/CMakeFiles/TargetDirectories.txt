@@ -1,0 +1,3 @@
+/home/pta/Desktop/Nrf24l01/CMakeFiles/nrf24l01.dir
+/home/pta/Desktop/Nrf24l01/CMakeFiles/edit_cache.dir
+/home/pta/Desktop/Nrf24l01/CMakeFiles/rebuild_cache.dir

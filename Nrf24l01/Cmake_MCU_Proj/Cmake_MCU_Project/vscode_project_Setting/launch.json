@@ -1,0 +1,90 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "name": "Launch Sidekick Mac",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceFolder}/Projects/Sidekick_Customer/build_outputs/Cardinal.axf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "serverpath": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+      "serverArgs": ["-speed", "20000"],
+      "device": "MIMXRT500_BGA_FS_SIDEKICK",
+      "interface": "swd",
+      "runToEntryPoint": "main",
+      "runToMain": true,
+      "armToolchainPath": "/Applications/ARM/bin",
+      "svdFile": "./Third_Parties/NXP/SDK/devices/MIMXRT595S/MIMXRT595S_cm33.xml",
+      // "preLaunchTask": "FlashFW",
+      "preLaunchCommands": [
+        //"monitor semihosting enable",
+        //"monitor semihosting IOclient 3"
+      ],
+      "postRestartCommands": [
+        "tbreak main",
+        "monitor reset 2",
+        //"continue",                   // uncomment for breaking at main, comment for breaking at first instruction
+      ],
+      "rtos": "FreeRTOS",
+    },
+    {
+      "name": "Launch Cardinal Hardware Factory",
+      "cwd": "${workspaceRoot}",
+      "executable": "${workspaceFolder}/Projects/Cardinal_Customer/build_outputs/Cardinal.axf",
+      // "executable": "${workspaceFolder}/Projects/Sidekick_mcuxpresso/Debug/freertos_sbengine.axf",
+      // "executable": "${workspaceFolder}/Projects/Sidekick_Factory/build_outputs/Sidekick1.axf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "serverpath": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+      "serverArgs": "-nogui",
+      "device": "MIMXRT595_M33",
+      "interface": "swd",
+      "runToMain": true,
+      // "armToolchainPath": "/Applications/MCUXpressoIDE_11.4.0_6224/ide/plugins/com.nxp.mcuxpresso.tools.macosx_11.4.0.202103011116/tools/bin",
+      "armToolchainPath": "/usr/local/bin",
+      // "svdFile": "./Third_Parties/NXP/SDK/devices/MIMXRT595S/MIMaRT595S_cm33.xml",
+      // "preLaunchTask": "FlashFW",
+      "preLaunchCommands": [
+        // "monitor semihossemmting enable",
+        // "monitor semihosting IOclient 3"
+      ],
+      "postRestartCommands": [
+        "tbreak main",
+        // "mon reset run",
+        "continue"                    // uncomment for breaking at main, comment for breaking at first instruction
+      ],
+    },
+    {
+      "name": "Attach Sidekick Mac",
+      "cwd": "${workspaceRoot}",
+      // "executable": "${workspaceFolder}/Projects/Sidekick_mcuxpresso/Debug/freertos_sbengine.axf",
+      "executable": "${workspaceFolder}/Projects/Sidekick_Customer/build_outputs/Sidekick1.axf",
+      // "executable": "${workspaceFolder}/Projects/Sidekick_Factory/build_outputs/Sidekick1.axf",
+      "request": "attach",
+      "type": "cortex-debug",
+      "servertype": "jlink",
+      "serverpath": "/Applications/SEGGER/JLink/JLinkGDBServerCLExe",
+      "device": "MIMXRT500_BGA_FS_SIDEKICK",
+      "interface": "swd",
+      "runToMain": true,
+      "armToolchainPath":"/Applications/ARM/bin",
+      "svdFile": "./Third_Parties/NXP/SDK/devices/MIMXRT595S/MIMXRT595S_cm33.xml",
+      "preLaunchCommands": [
+        "monitor semihosting enable",
+        "monitor semihosting IOclient 3"
+      ],
+      "postRestartCommands": [
+        // "tbreak main",
+        // "mon reset run",
+        "continue"                    // uncomment for breaking at main, comment for breaking at first instruction
+      ]
+    }
+  ]
+ }
+ 

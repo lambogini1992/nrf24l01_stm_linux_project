@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Build Project",
+      // "command": "cmake --build . --target Sidekick1",
+      "command": "cmake --build . -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake/build"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project BGA Customer",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_BGA -DPROJECT_TYPE=Sidekick_Customer ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project BGA Factory",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_BGA -DPROJECT_TYPE=Sidekick_Factory ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project HVT1 Customer",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_HVT1 -DPROJECT_TYPE=Sidekick_Customer ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project HVT1 Factory",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_HVT1 -DPROJECT_TYPE=Sidekick_Factory ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project HVT2 Customer",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_HVT2 -DPROJECT_TYPE=Sidekick_Customer ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project HVT2 Factory",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_HVT2 -DPROJECT_TYPE=Sidekick_Factory ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "type": "shell",
+      "label": "Rebuild Project Cardinal HVT1",
+      "command": "rm -rf build ; mkdir build ; cd build ; cmake .. -DCMAKE_BUILD_TYPE=Debug -DBOARD_VERSION=BOARD_VERSION_GEN7E_HVT1 -DPROJECT_TYPE=Cardinal_Customer ; make clean ; make -j",
+      "args": [],
+      "options": {
+        "cwd": "${workspaceFolder}/Projects/Workspaces_cmake"
+      },
+      "group": "build",
+      "problemMatcher": []
+    }
+  ],
+  "version": "2.0.0"
+ }

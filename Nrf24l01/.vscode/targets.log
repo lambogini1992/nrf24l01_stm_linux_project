@@ -1,0 +1,1839 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Aug 30 20:55:34 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+TERMINATOR_DBUS_NAME = net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3
+# environment
+LC_NAME = vi_VN
+# environment
+LC_NUMERIC = vi_VN
+# environment
+VSCODE_CWD = /home/pta/Desktop/Nrf24l01
+# environment
+TERMINATOR_UUID = urn:uuid:1a6b78cd-35df-4260-8972-4b2662d37cee
+# environment
+LC_ADDRESS = vi_VN
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/pta/Desktop/Nrf24l01
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/pta/Desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/pta/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.QDCJR1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile (from 'Makefile', line 51)
+CMAKE_COMMAND = /usr/bin/cmake
+# makefile
+MAKEFLAGS = pqrR
+# environment
+TERMINATOR_DBUS_PATH = /net/tenshu/Terminator2
+# makefile
+CURDIR := /home/pta/Desktop/Nrf24l01
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# makefile (from 'Makefile', line 63)
+CMAKE_BINARY_DIR = /home/pta/Desktop/Nrf24l01
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 6746
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 60)
+CMAKE_SOURCE_DIR = /home/pta/Desktop/Nrf24l01
+# environment
+SESSION_MANAGER = local/pta-pc:@/tmp/.ICE-unix/2282,unix/pta-pc:/tmp/.ICE-unix/2282
+# automatic
+*F = $(notdir $*)
+# environment
+IBUS_DISABLE_SNOOPER = 1
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile (from 'Makefile', line 48)
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+SHLVL = 1
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/SEGGER/JLink/:/usr/share/gcc-arm-10.3-2021.07-x86_64-arm-none-eabi/bin:/home/pta/STM32CubeMX
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = vi_VN
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = vi_VN
+# environment
+INVOCATION_ID = 331e72025774426a8572cfb9a5aff1b2
+# environment
+USERNAME = pta
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = vi_VN
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# makefile (from 'Makefile', line 57)
+EQUALS = =
+# environment
+LOGNAME = pta
+# makefile
+.DEFAULT_GOAL := default_target
+# environment
+SYSTEMD_EXEC_PID = 2633
+# makefile (from 'Makefile', line 54)
+RM = /usr/bin/cmake -E rm -f
+# environment
+DISPLAY = :0
+# environment
+USER = pta
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 2064
+# environment
+LC_MEASUREMENT = vi_VN
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2901
+# makefile (from 'Makefile', line 35)
+MAKESILENT = -s
+# environment
+_ = /usr/bin/code
+# environment
+LC_PAPER = vi_VN
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+COLORTERM = truecolor
+# environment
+JOURNAL_STREAM = 8:40575
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/pta
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-22b2d358-1.70.2-main.sock
+# environment
+TERM = xterm-256color
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+VTE_VERSION = 6800
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = vi_VN
+# variable set hash-table stats:
+# Load=115/1024=11%, Rehash=0, Collisions=5/154=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# RCS: could not be stat'd.
+# SCCS: could not be stat'd.
+# . (device 66312, inode 21241335): 23 files, no impossibilities.
+
+# 23 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
+# Files
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 625):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.i
+
+Core/stm32f1xx_hal_msp.o: Core/stm32f1xx_hal_msp.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 433):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.i
+
+Third_Party/FreeRTOS/list.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 705):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/list.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 297):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.s
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i:
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 265):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/croutine.s: Third_Party/FreeRTOS/croutine.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/queue.o: Third_Party/FreeRTOS/queue.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/stm32f1xx_it.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_it.c.i
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 116):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 561):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 345):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.s
+
+Third_Party/FreeRTOS/timers.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 833):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/timers.c.o
+
+Core/main.s: Core/main.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/list.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 697):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/list.c.i
+
+Third_Party/FreeRTOS/event_groups.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 681):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/event_groups.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/stream_buffer.i: Third_Party/FreeRTOS/stream_buffer.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/main.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/main.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.i: Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 393):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.s
+
+Core/stm32f1xx_hal_msp.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 185):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_hal_msp.c.o
+
+Third_Party/FreeRTOS/queue.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 769):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/queue.c.i
+
+Third_Party/FreeRTOS/croutine.o: Third_Party/FreeRTOS/croutine.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 569):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.o
+
+Third_Party/FreeRTOS/event_groups.i: Third_Party/FreeRTOS/event_groups.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 425):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.o
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.o: Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/queue.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 777):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/queue.c.s
+
+Core/system_stm32f1xx.o: Core/system_stm32f1xx.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 457):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.i
+
+Third_Party/FreeRTOS/event_groups.o: Third_Party/FreeRTOS/event_groups.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/system_stm32f1xx.s: Core/system_stm32f1xx.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/stm32f1xx_hal_msp.i: Core/stm32f1xx_hal_msp.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/freertos.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 153):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/freertos.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 497):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 401):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.o
+
+Third_Party/FreeRTOS/tasks.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 817):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/tasks.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/stream_buffer.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 793):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/stream_buffer.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 601):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.i
+
+Core/freertos.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 137):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/freertos.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.s
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-21 14:57:47.118292443
+#  File has been updated.
+#  Successfully updated.
+
+Third_Party/FreeRTOS/tasks.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 809):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/tasks.c.o
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+Core/freertos.i: Core/freertos.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 529):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 257):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.o
+
+Core/main.i: Core/main.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/list.i: Third_Party/FreeRTOS/list.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.o: Third_Party/FreeRTOS/portable/MemMang/heap_4.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 713):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 505):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.i
+
+Core/stm32f1xx_hal_msp.s: Core/stm32f1xx_hal_msp.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/stm32f1xx_hal_msp.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_hal_msp.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 281):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 521):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.o
+
+nrf24l01: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 124):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nrf24l01
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 481):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 753):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/MemMang/heap_4.c.s
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 97):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/stm32f1xx_it.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 209):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_it.c.o
+
+Third_Party/FreeRTOS/timers.i: Third_Party/FreeRTOS/timers.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 111):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/list.s: Third_Party/FreeRTOS/list.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 617):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 513):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.s
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 273):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 441):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.s
+
+Third_Party/FreeRTOS/tasks.o: Third_Party/FreeRTOS/tasks.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 585):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.s
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 305):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 353):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/queue.i: Third_Party/FreeRTOS/queue.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+ 
+#  File has not been updated.
+
+Third_Party/FreeRTOS/stream_buffer.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 801):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/stream_buffer.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 577):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.i
+
+# Not a target:
+.hpux_make_needs_suffix_list:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 729):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/main.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 161):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/main.c.o
+
+Third_Party/FreeRTOS/timers.o: Third_Party/FreeRTOS/timers.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 321):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/system_stm32f1xx.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 233):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/system_stm32f1xx.c.o
+
+Core/stm32f1xx_hal_msp.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 201):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_hal_msp.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 465):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 377):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 337):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 593):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.o
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 106):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+Third_Party/FreeRTOS/list.o: Third_Party/FreeRTOS/list.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+nrf24l01/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 129):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/build
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 537):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.s
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.s: Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/system_stm32f1xx.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 249):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/system_stm32f1xx.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 409):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.i
+
+Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 633):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.s
+
+Third_Party/FreeRTOS/timers.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 849):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/timers.c.s
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/timers.s: Third_Party/FreeRTOS/timers.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/system_stm32f1xx.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 241):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/system_stm32f1xx.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/timers.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 841):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/timers.c.i
+
+Core/stm32f1xx_it.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 225):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/stm32f1xx_it.c.s
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 90):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pta/Desktop/Nrf24l01/CMakeFiles /home/pta/Desktop/Nrf24l01//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pta/Desktop/Nrf24l01/CMakeFiles 0
+
+Core/stm32f1xx_it.i: Core/stm32f1xx_it.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 854):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... nrf24l01"
+	@echo "... Core/freertos.o"
+	@echo "... Core/freertos.i"
+	@echo "... Core/freertos.s"
+	@echo "... Core/main.o"
+	@echo "... Core/main.i"
+	@echo "... Core/main.s"
+	@echo "... Core/stm32f1xx_hal_msp.o"
+	@echo "... Core/stm32f1xx_hal_msp.i"
+	@echo "... Core/stm32f1xx_hal_msp.s"
+	@echo "... Core/stm32f1xx_it.o"
+	@echo "... Core/stm32f1xx_it.i"
+	@echo "... Core/stm32f1xx_it.s"
+	@echo "... Core/system_stm32f1xx.o"
+	@echo "... Core/system_stm32f1xx.i"
+	@echo "... Core/system_stm32f1xx.s"
+	@echo "... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o"
+	@echo "... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i"
+	@echo "... Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.s"
+ 
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.s"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.o"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.i"
+	@echo "... Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.s"
+	@echo "... Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.o"
+	@echo "... Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.i"
+	@echo "... Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.s"
+	@echo "... Third_Party/FreeRTOS/croutine.o"
+	@echo "... Third_Party/FreeRTOS/croutine.i"
+	@echo "... Third_Party/FreeRTOS/croutine.s"
+	@echo "... Third_Party/FreeRTOS/event_groups.o"
+	@echo "... Third_Party/FreeRTOS/event_groups.i"
+	@echo "... Third_Party/FreeRTOS/event_groups.s"
+	@echo "... Third_Party/FreeRTOS/list.o"
+	@echo "... Third_Party/FreeRTOS/list.i"
+	@echo "... Third_Party/FreeRTOS/list.s"
+	@echo "... Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.o"
+	@echo "... Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.i"
+	@echo "... Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.s"
+	@echo "... Third_Party/FreeRTOS/portable/MemMang/heap_4.o"
+	@echo "... Third_Party/FreeRTOS/portable/MemMang/heap_4.i"
+	@echo "... Third_Party/FreeRTOS/portable/MemMang/heap_4.s"
+	@echo "... Third_Party/FreeRTOS/queue.o"
+	@echo "... Third_Party/FreeRTOS/queue.i"
+	@echo "... Third_Party/FreeRTOS/queue.s"
+	@echo "... Third_Party/FreeRTOS/stream_buffer.o"
+	@echo "... Third_Party/FreeRTOS/stream_buffer.i"
+	@echo "... Third_Party/FreeRTOS/stream_buffer.s"
+	@echo "... Third_Party/FreeRTOS/tasks.o"
+	@echo "... Third_Party/FreeRTOS/tasks.i"
+	@echo "... Third_Party/FreeRTOS/tasks.s"
+	@echo "... Third_Party/FreeRTOS/timers.o"
+	@echo "... Third_Party/FreeRTOS/timers.i"
+	@echo "... Third_Party/FreeRTOS/timers.s"
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 361):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.i
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 721):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 473):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.o
+
+Third_Party/FreeRTOS/stream_buffer.s: Third_Party/FreeRTOS/stream_buffer.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/stm32f1xx_it.s: Core/stm32f1xx_it.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/stream_buffer.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 785):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/stream_buffer.c.o
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/queue.s: Third_Party/FreeRTOS/queue.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.s: Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.s: Third_Party/FreeRTOS/portable/MemMang/heap_4.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/croutine.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 641):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/croutine.c.o
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.o: Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 489):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.s
+
+Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s: Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.i: Third_Party/FreeRTOS/portable/MemMang/heap_4.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/event_groups.s: Third_Party/FreeRTOS/event_groups.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 745):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/MemMang/heap_4.c.i
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/MemMang/heap_4.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 737):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/portable/MemMang/heap_4.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 369):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 329):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/main.o: Core/main.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := cmake_check_build_system
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from 'Makefile', line 962):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 553):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/list.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 689):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/list.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.o:
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 545):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.i: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 385):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 313):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.i
+
+Core/freertos.s: Core/freertos.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.i: Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/tasks.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 825):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/tasks.c.s
+
+Third_Party/FreeRTOS/tasks.i: Third_Party/FreeRTOS/tasks.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+.SUFFIXES: .hpux_make_needs_suffix_list
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: default_target cmake_force edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend nrf24l01 nrf24l01/fast Core/freertos.o Core/freertos.c.o Core/freertos.i Core/freertos.c.i Core/freertos.s Core/freertos.c.s Core/main.o Core/main.c.o Core/main.i Core/main.c.i Core/main.s Core/main.c.s Core/stm32f1xx_hal_msp.o Core/stm32f1xx_hal_msp.c.o Core/stm32f1xx_hal_msp.i Core/stm32f1xx_hal_msp.c.i Core/stm32f1xx_hal_msp.s Core/stm32f1xx_hal_msp.c.s Core/stm32f1xx_it.o Core/stm32f1xx_it.c.o Core/stm32f1xx_it.i Core/stm32f1xx_it.c.i Core/stm32f1xx_it.s Core/stm32f1xx_it.c.s Core/system_stm32f1xx.o Core/system_stm32f1xx.c.o Core/system_stm32f1xx.i Core/system_stm32f1xx.c.i Core/system_stm32f1xx.s Core/system_stm32f1xx.c.s Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.o Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.o Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.i Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.i Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.s Drivers/CMSIS/Device/ST/STM32F1xx/Source/Templates/system_stm32f1xx.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_dma.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_exti.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_pwr.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_rcc_ex.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_spi.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim.c.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.o Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.i Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.s Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.s Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.o Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.o Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.i Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.i Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.s Third_Party/FreeRTOS/CMSIS_RTOS_V2/cmsis_os2.c.s Third_Party/FreeRTOS/croutine.o Third_Party/FreeRTOS/croutine.c.o Third_Party/FreeRTOS/croutine.i Third_Party/FreeRTOS/croutine.c.i Third_Party/FreeRTOS/croutine.s Third_Party/FreeRTOS/croutine.c.s Third_Party/FreeRTOS/event_groups.o Third_Party/FreeRTOS/event_groups.c.o Third_Party/FreeRTOS/event_groups.i Third_Party/FreeRTOS/event_groups.c.i Third_Party/FreeRTOS/event_groups.s Third_Party/FreeRTOS/event_groups.c.s Third_Party/FreeRTOS/list.o Third_Party/FreeRTOS/list.c.o Third_Party/FreeRTOS/list.i Third_Party/FreeRTOS/list.c.i Third_Party/FreeRTOS/list.s Third_Party/FreeRTOS/list.c.s Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.o Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.o Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.i Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.i Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.s Third_Party/FreeRTOS/portable/GCC/ARM_CM3/port.c.s Third_Party/FreeRTOS/portable/MemMang/heap_4.o Third_Party/FreeRTOS/portable/MemMang/heap_4.c.o Third_Party/FreeRTOS/portable/MemMang/heap_4.i Third_Party/FreeRTOS/portable/MemMang/heap_4.c.i Third_Party/FreeRTOS/portable/MemMang/heap_4.s Third_Party/FreeRTOS/portable/MemMang/heap_4.c.s Third_Party/FreeRTOS/queue.o Third_Party/FreeRTOS/queue.c.o Third_Party/FreeRTOS/queue.i Third_Party/FreeRTOS/queue.c.i Third_Party/FreeRTOS/queue.s Third_Party/FreeRTOS/queue.c.s Third_Party/FreeRTOS/stream_buffer.o Third_Party/FreeRTOS/stream_buffer.c.o Third_Party/FreeRTOS/stream_buffer.i Third_Party/FreeRTOS/stream_buffer.c.i Third_Party/FreeRTOS/stream_buffer.s Third_Party/FreeRTOS/stream_buffer.c.s Third_Party/FreeRTOS/tasks.o Third_Party/FreeRTOS/tasks.c.o Third_Party/FreeRTOS/tasks.i Third_Party/FreeRTOS/tasks.c.i Third_Party/FreeRTOS/tasks.s Third_Party/FreeRTOS/tasks.c.s Third_Party/FreeRTOS/timers.o Third_Party/FreeRTOS/timers.c.o Third_Party/FreeRTOS/timers.i Third_Party/FreeRTOS/timers.c.i Third_Party/FreeRTOS/timers.s Third_Party/FreeRTOS/timers.c.s help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_cortex.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/stream_buffer.o: Third_Party/FreeRTOS/stream_buffer.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/croutine.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 649):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/croutine.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 449):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio_ex.c.o
+
+Third_Party/FreeRTOS/event_groups.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 665):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/event_groups.c.o
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 289):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal.c.i
+
+Core/system_stm32f1xx.i: Core/system_stm32f1xx.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/main.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/main.c.i
+
+Core/stm32f1xx_it.o: Core/stm32f1xx_it.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/queue.c.o:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 761):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/queue.c.o
+
+Core/freertos.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 145):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Core/freertos.c.i
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 609):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_tim_ex.c.s
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.s: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_gpio.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 417):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.s
+
+Third_Party/FreeRTOS/croutine.i: Third_Party/FreeRTOS/croutine.c.i
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Core/freertos.o: Core/freertos.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.o: Drivers/STM32F1xx_HAL_Driver/stm32f1xx_hal_flash_ex.c.o
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/croutine.c.s:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 657):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/croutine.c.s
+
+Third_Party/FreeRTOS/tasks.s: Third_Party/FreeRTOS/tasks.c.s
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Third_Party/FreeRTOS/event_groups.c.i:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 673):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nrf24l01.dir/build.make CMakeFiles/nrf24l01.dir/Third_Party/FreeRTOS/event_groups.c.i
+
+# files hash-table stats:
+# Load=203/1024=20%, Rehash=0, Collisions=74/797=9%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 2 (1) / strings = 236 / storage = 8259 B / avg = 34 B
+# current buf: size = 8162 B / used = 106 B / count = 6 / avg = 17 B
+# other used: total = 8153 B / count = 230 / avg = 35 B
+# other free: total = 9 B / max = 9 B / min = 9 B / avg = 9 B
+
+# strcache performance: lookups = 1132 / hit rate = 79%
+# hash-table stats:
+# Load=236/8192=3%, Rehash=0, Collisions=20/1132=2%
+# Finished Make data base on Tue Aug 30 20:55:34 2022
+
+ 
